@@ -14,13 +14,13 @@
       <config projectName="DataStructure" targetName="CMakeCXXCompilerId" />
       <config projectName="DataStructure" targetName="graph" />
       <config projectName="DataStructure" targetName="queue" />
-      <config projectName="DataStructure" targetName="search" />
-      <config projectName="DataStructure" targetName="tree" />
       <config projectName="DataStructure" targetName="array" />
-      <config projectName="DataStructure" targetName="linear-list" />
-      <config projectName="DataStructure" targetName="String" />
-      <config projectName="DataStructure" targetName="file" />
+      <config projectName="DataStructure" targetName="tree" />
       <config projectName="DataStructure" targetName="sorting" />
+      <config projectName="DataStructure" targetName="String" />
+      <config projectName="DataStructure" targetName="linear-list" />
+      <config projectName="DataStructure" targetName="file" />
+      <config projectName="DataStructure" targetName="search" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -29,9 +29,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a307271-3b33-4382-ad42-6610ef80aade" name="Default Changelist" comment="git项目的获取">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4a307271-3b33-4382-ad42-6610ef80aade" name="Default Changelist" comment="rebuild" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,6 +158,7 @@
       <workItem from="1600249662330" duration="934000" />
       <workItem from="1600251636320" duration="446000" />
       <workItem from="1600256117055" duration="160000" />
+      <workItem from="1600257957137" duration="243000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <created>1600249700181</created>
@@ -189,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600251984652</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="rebuild">
+      <created>1600258155748</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600258155748</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +247,8 @@
     <MESSAGE value="Revert &quot;新建&quot;&#10;&#10;This reverts commit 30779fda" />
     <MESSAGE value="clion试用" />
     <MESSAGE value="git项目的获取" />
-    <option name="LAST_COMMIT_MESSAGE" value="git项目的获取" />
+    <MESSAGE value="rebuild" />
+    <option name="LAST_COMMIT_MESSAGE" value="rebuild" />
   </component>
   <component name="WindowStateProjectService">
     <state x="859" y="294" width="524" height="514" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600244720108">
