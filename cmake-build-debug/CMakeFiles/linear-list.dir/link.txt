@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/linear-list.dir/Linear-list/linear-list.cpp.o  -o linear-list 

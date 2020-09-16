@@ -1,0 +1,14 @@
+/home/puppet/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/puppet/WorkSpace/CLionProjects/DataStructure
+    -- src/array.cpp will be compiled to bin/array
+    -- src/file.cpp will be compiled to bin/file
+    -- src/graph.cpp will be compiled to bin/graph
+    -- src/linear-list.cpp will be compiled to bin/linear-list
+    -- src/queue.cpp will be compiled to bin/queue
+    -- src/search.cpp will be compiled to bin/search
+    -- src/sorting.cpp will be compiled to bin/sorting
+    -- src/String.cpp will be compiled to bin/String
+    -- src/tree.cpp will be compiled to bin/tree
+    -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug

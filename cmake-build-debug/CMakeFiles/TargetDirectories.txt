@@ -1,0 +1,12 @@
+/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles/linear-list.dir
+/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles/graph.dir
+/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles/file.dir
+/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles/queue.dir
+/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles/array.dir
+/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles/sorting.dir
+/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir
+/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles/search.dir
+/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles/String.dir
+/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles/tree.dir

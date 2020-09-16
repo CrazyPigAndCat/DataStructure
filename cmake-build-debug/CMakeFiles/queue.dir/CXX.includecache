@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/puppet/WorkSpace/CLionProjects/DataStructure/Array/array.cpp
+stdio.h
+-
+
+/home/puppet/WorkSpace/CLionProjects/DataStructure/File/file.cpp
+stdio.h
+-
+
+/home/puppet/WorkSpace/CLionProjects/DataStructure/Graph/graph.cpp
+stdio.h
+-
+
+/home/puppet/WorkSpace/CLionProjects/DataStructure/Linear-list/linear-list.cpp
+stdio.h
+-
+
+/home/puppet/WorkSpace/CLionProjects/DataStructure/Queue/queue.cpp
+stdio.h
+-
+
+/home/puppet/WorkSpace/CLionProjects/DataStructure/Search/search.cpp
+stdio.h
+-
+
+/home/puppet/WorkSpace/CLionProjects/DataStructure/Sorting/sorting.cpp
+stdio.h
+-
+
+/home/puppet/WorkSpace/CLionProjects/DataStructure/String/String.cpp
+stdio.h
+-
+
+/home/puppet/WorkSpace/CLionProjects/DataStructure/Tree/tree.cpp
+stdio.h
+-
+
