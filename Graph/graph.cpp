@@ -3,7 +3,7 @@
 //
 #include <stdio.h>
 int main(){
-    printf("graph\n");
+    printf("this is graph start\n");
     return 0;
 }
 
