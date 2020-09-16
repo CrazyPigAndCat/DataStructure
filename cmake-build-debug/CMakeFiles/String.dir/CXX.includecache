@@ -6,3 +6,7 @@
 
 #IncludeRegexTransform: 
 
+/home/puppet/WorkSpace/CLionProjects/DataStructure/String/String.cpp
+stdio.h
+-
+

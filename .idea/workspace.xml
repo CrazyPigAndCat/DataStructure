@@ -29,7 +29,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a307271-3b33-4382-ad42-6610ef80aade" name="Default Changelist" comment="新建" />
+    <list default="true" id="4a307271-3b33-4382-ad42-6610ef80aade" name="Default Changelist" comment="git项目的获取">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +68,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
@@ -78,7 +82,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="CMake Application.file">
+  <component name="RunManager" selected="CMake Application.tree">
     <configuration name="CMakeCXXCompilerId" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="CMakeCXXCompilerId" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="CMakeCXXCompilerId">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -130,15 +134,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.array" />
       <item itemvalue="CMake Application.CMakeCXXCompilerId" />
+      <item itemvalue="CMake Application.String" />
+      <item itemvalue="CMake Application.array" />
       <item itemvalue="CMake Application.file" />
       <item itemvalue="CMake Application.graph" />
       <item itemvalue="CMake Application.linear-list" />
       <item itemvalue="CMake Application.queue" />
       <item itemvalue="CMake Application.search" />
       <item itemvalue="CMake Application.sorting" />
-      <item itemvalue="CMake Application.String" />
       <item itemvalue="CMake Application.tree" />
     </list>
   </component>
@@ -154,6 +158,8 @@
       <updated>1600244256991</updated>
       <workItem from="1600244260494" duration="2705000" />
       <workItem from="1600249662330" duration="934000" />
+      <workItem from="1600251636320" duration="446000" />
+      <workItem from="1600256117055" duration="160000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <created>1600249700181</created>
@@ -169,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600249886148</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="clion试用">
+      <created>1600251688939</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600251688939</updated>
+    </task>
+    <task id="LOCAL-00004" summary="git项目的获取">
+      <created>1600251984652</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600251984652</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +239,9 @@
     </ignored-roots>
     <MESSAGE value="新建" />
     <MESSAGE value="Revert &quot;新建&quot;&#10;&#10;This reverts commit 30779fda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;新建&quot;&#10;&#10;This reverts commit 30779fda" />
+    <MESSAGE value="clion试用" />
+    <MESSAGE value="git项目的获取" />
+    <option name="LAST_COMMIT_MESSAGE" value="git项目的获取" />
   </component>
   <component name="WindowStateProjectService">
     <state x="859" y="294" width="524" height="514" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600244720108">
@@ -230,30 +252,30 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="479" y="27" width="854" height="1049" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1600249885982" />
-    <state width="1501" height="254" key="GridCell.Tab.0.bottom" timestamp="1600249737598">
+    <state width="1501" height="254" key="GridCell.Tab.0.bottom" timestamp="1600252081350">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1501" height="254" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600249737598" />
-    <state width="1501" height="254" key="GridCell.Tab.0.center" timestamp="1600249737598">
+    <state width="1501" height="254" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600252081350" />
+    <state width="1501" height="254" key="GridCell.Tab.0.center" timestamp="1600252081350">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1501" height="254" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600249737598" />
-    <state width="1501" height="254" key="GridCell.Tab.0.left" timestamp="1600249737597">
+    <state width="1501" height="254" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600252081350" />
+    <state width="1501" height="254" key="GridCell.Tab.0.left" timestamp="1600252081349">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1501" height="254" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600249737597" />
-    <state width="1501" height="254" key="GridCell.Tab.0.right" timestamp="1600249737598">
+    <state width="1501" height="254" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600252081349" />
+    <state width="1501" height="254" key="GridCell.Tab.0.right" timestamp="1600252081350">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1501" height="254" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600249737598" />
+    <state width="1501" height="254" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600252081350" />
     <state x="393" y="165" width="1037" height="737" key="SettingsEditor" timestamp="1600250711771">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="393" y="165" width="1037" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1600250711771" />
-    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1600249732655">
+    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1600251999421">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1600249732655" />
+    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1600251999421" />
     <state x="738" y="486" width="461" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600247072604">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

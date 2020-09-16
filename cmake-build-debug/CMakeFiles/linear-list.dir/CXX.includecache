@@ -6,3 +6,7 @@
 
 #IncludeRegexTransform: 
 
+/home/puppet/WorkSpace/CLionProjects/DataStructure/Linear-list/linear-list.cpp
+stdio.h
+-
+
