@@ -16,9 +16,9 @@
       <config projectName="DataStructure" targetName="queue" />
       <config projectName="DataStructure" targetName="array" />
       <config projectName="DataStructure" targetName="tree" />
-      <config projectName="DataStructure" targetName="linear-list" />
       <config projectName="DataStructure" targetName="sorting" />
       <config projectName="DataStructure" targetName="String" />
+      <config projectName="DataStructure" targetName="linear-list" />
       <config projectName="DataStructure" targetName="file" />
       <config projectName="DataStructure" targetName="search" />
     </generated>
@@ -31,19 +31,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4a307271-3b33-4382-ad42-6610ef80aade" name="Default Changelist" comment="rebuild">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/String.dir/String/String.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/String.dir/String/String.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linear-list.dir/Linear-list/linear-list.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linear-list.dir/Linear-list/linear-list.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queue.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queue.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queue.dir/Queue/queue.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queue.dir/Queue/queue.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/Search/search.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/Search/search.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sorting.dir/Sorting/sorting.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sorting.dir/Sorting/sorting.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tree.dir/Tree/tree.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tree.dir/Tree/tree.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/String" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/String" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/linear-list" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/linear-list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/queue" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/queue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/search" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/search" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/sorting" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/sorting" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tree" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tree" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600258298920</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="computer ubuntu git push">
+      <created>1600260200692</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600260200692</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +265,8 @@
     <MESSAGE value="clion试用" />
     <MESSAGE value="git项目的获取" />
     <MESSAGE value="rebuild" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="computer ubuntu git push" />
+    <option name="LAST_COMMIT_MESSAGE" value="computer ubuntu git push" />
   </component>
   <component name="WindowStateProjectService">
     <state x="859" y="294" width="524" height="514" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600244720108">
@@ -282,37 +277,37 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="479" y="27" width="854" height="1049" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1600249885982" />
-    <state width="1501" height="254" key="GridCell.Tab.0.bottom" timestamp="1600258430858">
+    <state width="1501" height="254" key="GridCell.Tab.0.bottom" timestamp="1600260268361">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1501" height="254" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600258430858" />
-    <state width="1501" height="254" key="GridCell.Tab.0.center" timestamp="1600258430857">
+    <state width="1501" height="254" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600260268361" />
+    <state width="1501" height="254" key="GridCell.Tab.0.center" timestamp="1600260268360">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1501" height="254" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600258430857" />
-    <state width="1501" height="254" key="GridCell.Tab.0.left" timestamp="1600258430857">
+    <state width="1501" height="254" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600260268360" />
+    <state width="1501" height="254" key="GridCell.Tab.0.left" timestamp="1600260268360">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1501" height="254" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600258430857" />
-    <state width="1501" height="254" key="GridCell.Tab.0.right" timestamp="1600258430858">
+    <state width="1501" height="254" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600260268360" />
+    <state width="1501" height="254" key="GridCell.Tab.0.right" timestamp="1600260268360">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1501" height="254" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600258430858" />
+    <state width="1501" height="254" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600260268360" />
     <state x="393" y="165" width="1037" height="737" key="SettingsEditor" timestamp="1600258997874">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="393" y="165" width="1037" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1600258997874" />
-    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1600258314317">
+    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1600260213479">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1600258314317" />
+    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1600260213479" />
     <state x="738" y="486" width="461" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600247072604">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="738" y="486" width="461" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1600247072604" />
-    <state x="699" y="341" width="741" height="463" key="git4idea.merge.GitPullDialog" timestamp="1600258409778">
+    <state x="699" y="341" width="741" height="470" key="git4idea.merge.GitPullDialog" timestamp="1600260081664">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="699" y="341" width="741" height="463" key="git4idea.merge.GitPullDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1600258409778" />
+    <state x="699" y="341" width="741" height="470" key="git4idea.merge.GitPullDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1600260081664" />
   </component>
 </project>
