@@ -3,7 +3,7 @@
 //
 #include <stdio.h>
 int main(){
-    printf("queue\n");
+    printf("this is queue start\n");
     return 0;
 }
 

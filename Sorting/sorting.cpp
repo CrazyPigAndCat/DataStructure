@@ -3,7 +3,7 @@
 //
 #include <stdio.h>
 int main(){
-    printf("sorting\n");
+    printf("this is sorting start\n");
     return 0;
 }
 

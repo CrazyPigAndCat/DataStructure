@@ -3,7 +3,7 @@
 //
 #include <stdio.h>
 int main(){
-    printf("search\n");
+    printf("this is search start\n");
     return 0;
 }
 

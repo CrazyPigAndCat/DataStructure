@@ -16,9 +16,9 @@
       <config projectName="DataStructure" targetName="queue" />
       <config projectName="DataStructure" targetName="array" />
       <config projectName="DataStructure" targetName="tree" />
+      <config projectName="DataStructure" targetName="linear-list" />
       <config projectName="DataStructure" targetName="sorting" />
       <config projectName="DataStructure" targetName="String" />
-      <config projectName="DataStructure" targetName="linear-list" />
       <config projectName="DataStructure" targetName="file" />
       <config projectName="DataStructure" targetName="search" />
     </generated>
@@ -159,6 +159,7 @@
       <workItem from="1600251636320" duration="446000" />
       <workItem from="1600256117055" duration="160000" />
       <workItem from="1600257957137" duration="243000" />
+      <workItem from="1600258970610" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <created>1600249700181</created>
@@ -275,10 +276,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1501" height="254" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600252081350" />
-    <state x="393" y="165" width="1037" height="737" key="SettingsEditor" timestamp="1600250711771">
+    <state x="393" y="165" width="1037" height="737" key="SettingsEditor" timestamp="1600258997874">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="393" y="165" width="1037" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1600250711771" />
+    <state x="393" y="165" width="1037" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1600258997874" />
     <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1600251999421">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

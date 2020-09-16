@@ -3,7 +3,7 @@
 //
 #include <stdio.h>
 int main(){
-    printf("linear-list\n");
+    printf("this is linear-list start\n");
     return 0;
 }
 

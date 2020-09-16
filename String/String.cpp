@@ -3,7 +3,7 @@
 //
 #include <stdio.h>
 int main(){
-    printf("string\n");
+    printf("this is string start\n");
     return 0;
 }
 
