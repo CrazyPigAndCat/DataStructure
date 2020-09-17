@@ -1,5 +1,11 @@
 /home/puppet/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/puppet/WorkSpace/CLionProjects/DataStructure
     -- src/array.cpp will be compiled to bin/array
+    -- src/basis.cpp will be compiled to bin/basis
+    -- src/controlAndFlow.cpp will be compiled to bin/controlAndFlow
+    -- src/functionAndPrograms.cpp will be compiled to bin/functionAndPrograms
+    -- src/pointersAndArrays.cpp will be compiled to bin/pointersAndArrays
+    -- src/structureAndClass.cpp will be compiled to bin/structureAndClass
+    -- src/typeAndOperation.cpp will be compiled to bin/typeAndOperation
     -- src/file.cpp will be compiled to bin/file
     -- src/graph.cpp will be compiled to bin/graph
     -- src/linear-list.cpp will be compiled to bin/linear-list

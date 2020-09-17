@@ -16,9 +16,9 @@
       <config projectName="DataStructure" targetName="queue" />
       <config projectName="DataStructure" targetName="array" />
       <config projectName="DataStructure" targetName="tree" />
-      <config projectName="DataStructure" targetName="linear-list" />
       <config projectName="DataStructure" targetName="sorting" />
       <config projectName="DataStructure" targetName="String" />
+      <config projectName="DataStructure" targetName="linear-list" />
       <config projectName="DataStructure" targetName="file" />
       <config projectName="DataStructure" targetName="search" />
     </generated>
@@ -29,7 +29,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a307271-3b33-4382-ad42-6610ef80aade" name="Default Changelist" comment="rebuild" />
+    <list default="true" id="4a307271-3b33-4382-ad42-6610ef80aade" name="Default Changelist" comment="rebuild">
+      <change afterPath="$PROJECT_DIR$/C-basis/Basis/basis.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +100,22 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="basis" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="basis" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="basis">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="controlAndFlow" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="controlAndFlow" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="controlAndFlow">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="file" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="file" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="file">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="functionAndPrograms" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="functionAndPrograms" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="functionAndPrograms">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -107,6 +126,11 @@
       </method>
     </configuration>
     <configuration name="linear-list" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="linear-list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="linear-list">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pointersAndArrays" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="pointersAndArrays" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="pointersAndArrays">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -126,22 +150,38 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="structureAndClass" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="structureAndClass" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="structureAndClass">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="tree" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="tree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="tree">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="typeAndOperation" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="typeAndOperation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="typeAndOperation">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="CMake Application.CMakeCXXCompilerId" />
+      <item itemvalue="CMake Application.controlAndFlow" />
       <item itemvalue="CMake Application.String" />
+      <item itemvalue="CMake Application.structureAndClass" />
       <item itemvalue="CMake Application.array" />
+      <item itemvalue="CMake Application.basis" />
       <item itemvalue="CMake Application.file" />
+      <item itemvalue="CMake Application.functionAndPrograms" />
       <item itemvalue="CMake Application.graph" />
       <item itemvalue="CMake Application.linear-list" />
+      <item itemvalue="CMake Application.pointersAndArrays" />
       <item itemvalue="CMake Application.queue" />
       <item itemvalue="CMake Application.search" />
       <item itemvalue="CMake Application.sorting" />
       <item itemvalue="CMake Application.tree" />
+      <item itemvalue="CMake Application.typeAndOperation" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -160,7 +200,8 @@
       <workItem from="1600256117055" duration="160000" />
       <workItem from="1600257957137" duration="455000" />
       <workItem from="1600258970610" duration="27000" />
-      <workItem from="1600298721216" duration="236000" />
+      <workItem from="1600298721216" duration="536000" />
+      <workItem from="1600316959828" duration="1080000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <created>1600249700181</created>
@@ -218,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600298872612</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="提交workspace.xml">
+      <created>1600298977958</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600298977958</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,10 +352,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="393" y="165" width="1037" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1600258997874" />
-    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1600260213479">
+    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1600298994615">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1600260213479" />
+    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1600298994615" />
     <state x="738" y="486" width="461" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600247072604">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

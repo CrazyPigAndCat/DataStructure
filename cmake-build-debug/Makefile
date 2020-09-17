@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-buil
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/puppet/clion/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/puppet/clion/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,17 +111,173 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named linear-list
+# Target rules for targets named tree
 
 # Build rule for target.
-linear-list: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 linear-list
-.PHONY : linear-list
+tree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tree
+.PHONY : tree
 
 # fast build rule for target.
-linear-list/fast:
-	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/build
-.PHONY : linear-list/fast
+tree/fast:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
+.PHONY : tree/fast
+
+#=============================================================================
+# Target rules for targets named String
+
+# Build rule for target.
+String: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 String
+.PHONY : String
+
+# fast build rule for target.
+String/fast:
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/build
+.PHONY : String/fast
+
+#=============================================================================
+# Target rules for targets named search
+
+# Build rule for target.
+search: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 search
+.PHONY : search
+
+# fast build rule for target.
+search/fast:
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/build
+.PHONY : search/fast
+
+#=============================================================================
+# Target rules for targets named queue
+
+# Build rule for target.
+queue: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 queue
+.PHONY : queue
+
+# fast build rule for target.
+queue/fast:
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/build
+.PHONY : queue/fast
+
+#=============================================================================
+# Target rules for targets named controlAndFlow
+
+# Build rule for target.
+controlAndFlow: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 controlAndFlow
+.PHONY : controlAndFlow
+
+# fast build rule for target.
+controlAndFlow/fast:
+	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/build
+.PHONY : controlAndFlow/fast
+
+#=============================================================================
+# Target rules for targets named functionAndPrograms
+
+# Build rule for target.
+functionAndPrograms: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 functionAndPrograms
+.PHONY : functionAndPrograms
+
+# fast build rule for target.
+functionAndPrograms/fast:
+	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/build
+.PHONY : functionAndPrograms/fast
+
+#=============================================================================
+# Target rules for targets named basis
+
+# Build rule for target.
+basis: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 basis
+.PHONY : basis
+
+# fast build rule for target.
+basis/fast:
+	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/build
+.PHONY : basis/fast
+
+#=============================================================================
+# Target rules for targets named pointersAndArrays
+
+# Build rule for target.
+pointersAndArrays: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pointersAndArrays
+.PHONY : pointersAndArrays
+
+# fast build rule for target.
+pointersAndArrays/fast:
+	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/build
+.PHONY : pointersAndArrays/fast
+
+#=============================================================================
+# Target rules for targets named CMakeCXXCompilerId
+
+# Build rule for target.
+CMakeCXXCompilerId: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeCXXCompilerId
+.PHONY : CMakeCXXCompilerId
+
+# fast build rule for target.
+CMakeCXXCompilerId/fast:
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/build
+.PHONY : CMakeCXXCompilerId/fast
+
+#=============================================================================
+# Target rules for targets named sorting
+
+# Build rule for target.
+sorting: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sorting
+.PHONY : sorting
+
+# fast build rule for target.
+sorting/fast:
+	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/build
+.PHONY : sorting/fast
+
+#=============================================================================
+# Target rules for targets named array
+
+# Build rule for target.
+array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 array
+.PHONY : array
+
+# fast build rule for target.
+array/fast:
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/build
+.PHONY : array/fast
+
+#=============================================================================
+# Target rules for targets named structureAndClass
+
+# Build rule for target.
+structureAndClass: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 structureAndClass
+.PHONY : structureAndClass
+
+# fast build rule for target.
+structureAndClass/fast:
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/build
+.PHONY : structureAndClass/fast
+
+#=============================================================================
+# Target rules for targets named typeAndOperation
+
+# Build rule for target.
+typeAndOperation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 typeAndOperation
+.PHONY : typeAndOperation
+
+# fast build rule for target.
+typeAndOperation/fast:
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/build
+.PHONY : typeAndOperation/fast
 
 #=============================================================================
 # Target rules for targets named graph
@@ -150,95 +306,17 @@ file/fast:
 .PHONY : file/fast
 
 #=============================================================================
-# Target rules for targets named queue
+# Target rules for targets named linear-list
 
 # Build rule for target.
-queue: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 queue
-.PHONY : queue
+linear-list: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 linear-list
+.PHONY : linear-list
 
 # fast build rule for target.
-queue/fast:
-	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/build
-.PHONY : queue/fast
-
-#=============================================================================
-# Target rules for targets named array
-
-# Build rule for target.
-array: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 array
-.PHONY : array
-
-# fast build rule for target.
-array/fast:
-	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/build
-.PHONY : array/fast
-
-#=============================================================================
-# Target rules for targets named sorting
-
-# Build rule for target.
-sorting: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sorting
-.PHONY : sorting
-
-# fast build rule for target.
-sorting/fast:
-	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/build
-.PHONY : sorting/fast
-
-#=============================================================================
-# Target rules for targets named CMakeCXXCompilerId
-
-# Build rule for target.
-CMakeCXXCompilerId: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeCXXCompilerId
-.PHONY : CMakeCXXCompilerId
-
-# fast build rule for target.
-CMakeCXXCompilerId/fast:
-	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/build
-.PHONY : CMakeCXXCompilerId/fast
-
-#=============================================================================
-# Target rules for targets named search
-
-# Build rule for target.
-search: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 search
-.PHONY : search
-
-# fast build rule for target.
-search/fast:
-	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/build
-.PHONY : search/fast
-
-#=============================================================================
-# Target rules for targets named String
-
-# Build rule for target.
-String: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 String
-.PHONY : String
-
-# fast build rule for target.
-String/fast:
-	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/build
-.PHONY : String/fast
-
-#=============================================================================
-# Target rules for targets named tree
-
-# Build rule for target.
-tree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tree
-.PHONY : tree
-
-# fast build rule for target.
-tree/fast:
-	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
-.PHONY : tree/fast
+linear-list/fast:
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/build
+.PHONY : linear-list/fast
 
 Array/array.o: Array/array.cpp.o
 
@@ -266,6 +344,438 @@ Array/array.s: Array/array.cpp.s
 Array/array.cpp.s:
 	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/Array/array.cpp.s
 .PHONY : Array/array.cpp.s
+
+C-basis/Basis/basis.o: C-basis/Basis/basis.cpp.o
+
+.PHONY : C-basis/Basis/basis.o
+
+# target to build an object file
+C-basis/Basis/basis.cpp.o:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/C-basis/Basis/basis.cpp.o
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/C-basis/Basis/basis.cpp.o
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/C-basis/Basis/basis.cpp.o
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/C-basis/Basis/basis.cpp.o
+	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/C-basis/Basis/basis.cpp.o
+	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/C-basis/Basis/basis.cpp.o
+	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/C-basis/Basis/basis.cpp.o
+	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/C-basis/Basis/basis.cpp.o
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/C-basis/Basis/basis.cpp.o
+	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/C-basis/Basis/basis.cpp.o
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C-basis/Basis/basis.cpp.o
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/C-basis/Basis/basis.cpp.o
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/C-basis/Basis/basis.cpp.o
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/C-basis/Basis/basis.cpp.o
+	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/C-basis/Basis/basis.cpp.o
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/C-basis/Basis/basis.cpp.o
+.PHONY : C-basis/Basis/basis.cpp.o
+
+C-basis/Basis/basis.i: C-basis/Basis/basis.cpp.i
+
+.PHONY : C-basis/Basis/basis.i
+
+# target to preprocess a source file
+C-basis/Basis/basis.cpp.i:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/C-basis/Basis/basis.cpp.i
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/C-basis/Basis/basis.cpp.i
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/C-basis/Basis/basis.cpp.i
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/C-basis/Basis/basis.cpp.i
+	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/C-basis/Basis/basis.cpp.i
+	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/C-basis/Basis/basis.cpp.i
+	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/C-basis/Basis/basis.cpp.i
+	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/C-basis/Basis/basis.cpp.i
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/C-basis/Basis/basis.cpp.i
+	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/C-basis/Basis/basis.cpp.i
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C-basis/Basis/basis.cpp.i
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/C-basis/Basis/basis.cpp.i
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/C-basis/Basis/basis.cpp.i
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/C-basis/Basis/basis.cpp.i
+	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/C-basis/Basis/basis.cpp.i
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/C-basis/Basis/basis.cpp.i
+.PHONY : C-basis/Basis/basis.cpp.i
+
+C-basis/Basis/basis.s: C-basis/Basis/basis.cpp.s
+
+.PHONY : C-basis/Basis/basis.s
+
+# target to generate assembly for a file
+C-basis/Basis/basis.cpp.s:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/C-basis/Basis/basis.cpp.s
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/C-basis/Basis/basis.cpp.s
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/C-basis/Basis/basis.cpp.s
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/C-basis/Basis/basis.cpp.s
+	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/C-basis/Basis/basis.cpp.s
+	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/C-basis/Basis/basis.cpp.s
+	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/C-basis/Basis/basis.cpp.s
+	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/C-basis/Basis/basis.cpp.s
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/C-basis/Basis/basis.cpp.s
+	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/C-basis/Basis/basis.cpp.s
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C-basis/Basis/basis.cpp.s
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/C-basis/Basis/basis.cpp.s
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/C-basis/Basis/basis.cpp.s
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/C-basis/Basis/basis.cpp.s
+	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/C-basis/Basis/basis.cpp.s
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/C-basis/Basis/basis.cpp.s
+.PHONY : C-basis/Basis/basis.cpp.s
+
+C-basis/ControlFlow/controlAndFlow.o: C-basis/ControlFlow/controlAndFlow.cpp.o
+
+.PHONY : C-basis/ControlFlow/controlAndFlow.o
+
+# target to build an object file
+C-basis/ControlFlow/controlAndFlow.cpp.o:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/C-basis/ControlFlow/controlAndFlow.cpp.o
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/C-basis/ControlFlow/controlAndFlow.cpp.o
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/C-basis/ControlFlow/controlAndFlow.cpp.o
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/C-basis/ControlFlow/controlAndFlow.cpp.o
+	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/C-basis/ControlFlow/controlAndFlow.cpp.o
+	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/C-basis/ControlFlow/controlAndFlow.cpp.o
+	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/C-basis/ControlFlow/controlAndFlow.cpp.o
+	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/C-basis/ControlFlow/controlAndFlow.cpp.o
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/C-basis/ControlFlow/controlAndFlow.cpp.o
+	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/C-basis/ControlFlow/controlAndFlow.cpp.o
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C-basis/ControlFlow/controlAndFlow.cpp.o
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/C-basis/ControlFlow/controlAndFlow.cpp.o
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/C-basis/ControlFlow/controlAndFlow.cpp.o
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/C-basis/ControlFlow/controlAndFlow.cpp.o
+	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/C-basis/ControlFlow/controlAndFlow.cpp.o
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/C-basis/ControlFlow/controlAndFlow.cpp.o
+.PHONY : C-basis/ControlFlow/controlAndFlow.cpp.o
+
+C-basis/ControlFlow/controlAndFlow.i: C-basis/ControlFlow/controlAndFlow.cpp.i
+
+.PHONY : C-basis/ControlFlow/controlAndFlow.i
+
+# target to preprocess a source file
+C-basis/ControlFlow/controlAndFlow.cpp.i:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/C-basis/ControlFlow/controlAndFlow.cpp.i
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/C-basis/ControlFlow/controlAndFlow.cpp.i
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/C-basis/ControlFlow/controlAndFlow.cpp.i
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/C-basis/ControlFlow/controlAndFlow.cpp.i
+	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/C-basis/ControlFlow/controlAndFlow.cpp.i
+	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/C-basis/ControlFlow/controlAndFlow.cpp.i
+	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/C-basis/ControlFlow/controlAndFlow.cpp.i
+	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/C-basis/ControlFlow/controlAndFlow.cpp.i
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/C-basis/ControlFlow/controlAndFlow.cpp.i
+	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/C-basis/ControlFlow/controlAndFlow.cpp.i
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C-basis/ControlFlow/controlAndFlow.cpp.i
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/C-basis/ControlFlow/controlAndFlow.cpp.i
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/C-basis/ControlFlow/controlAndFlow.cpp.i
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/C-basis/ControlFlow/controlAndFlow.cpp.i
+	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/C-basis/ControlFlow/controlAndFlow.cpp.i
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/C-basis/ControlFlow/controlAndFlow.cpp.i
+.PHONY : C-basis/ControlFlow/controlAndFlow.cpp.i
+
+C-basis/ControlFlow/controlAndFlow.s: C-basis/ControlFlow/controlAndFlow.cpp.s
+
+.PHONY : C-basis/ControlFlow/controlAndFlow.s
+
+# target to generate assembly for a file
+C-basis/ControlFlow/controlAndFlow.cpp.s:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/C-basis/ControlFlow/controlAndFlow.cpp.s
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/C-basis/ControlFlow/controlAndFlow.cpp.s
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/C-basis/ControlFlow/controlAndFlow.cpp.s
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/C-basis/ControlFlow/controlAndFlow.cpp.s
+	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/C-basis/ControlFlow/controlAndFlow.cpp.s
+	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/C-basis/ControlFlow/controlAndFlow.cpp.s
+	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/C-basis/ControlFlow/controlAndFlow.cpp.s
+	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/C-basis/ControlFlow/controlAndFlow.cpp.s
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/C-basis/ControlFlow/controlAndFlow.cpp.s
+	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/C-basis/ControlFlow/controlAndFlow.cpp.s
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C-basis/ControlFlow/controlAndFlow.cpp.s
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/C-basis/ControlFlow/controlAndFlow.cpp.s
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/C-basis/ControlFlow/controlAndFlow.cpp.s
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/C-basis/ControlFlow/controlAndFlow.cpp.s
+	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/C-basis/ControlFlow/controlAndFlow.cpp.s
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/C-basis/ControlFlow/controlAndFlow.cpp.s
+.PHONY : C-basis/ControlFlow/controlAndFlow.cpp.s
+
+C-basis/FunctionAndPrograms/functionAndPrograms.o: C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o
+
+.PHONY : C-basis/FunctionAndPrograms/functionAndPrograms.o
+
+# target to build an object file
+C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o
+	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o
+	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o
+	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o
+	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o
+	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o
+	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o
+.PHONY : C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o
+
+C-basis/FunctionAndPrograms/functionAndPrograms.i: C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i
+
+.PHONY : C-basis/FunctionAndPrograms/functionAndPrograms.i
+
+# target to preprocess a source file
+C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i
+	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i
+	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i
+	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i
+	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i
+	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i
+	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i
+.PHONY : C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i
+
+C-basis/FunctionAndPrograms/functionAndPrograms.s: C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s
+
+.PHONY : C-basis/FunctionAndPrograms/functionAndPrograms.s
+
+# target to generate assembly for a file
+C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s
+	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s
+	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s
+	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s
+	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s
+	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s
+	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s
+.PHONY : C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s
+
+C-basis/PointersAndArrays/pointersAndArrays.o: C-basis/PointersAndArrays/pointersAndArrays.cpp.o
+
+.PHONY : C-basis/PointersAndArrays/pointersAndArrays.o
+
+# target to build an object file
+C-basis/PointersAndArrays/pointersAndArrays.cpp.o:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o
+	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o
+	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o
+	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o
+	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o
+	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o
+	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o
+.PHONY : C-basis/PointersAndArrays/pointersAndArrays.cpp.o
+
+C-basis/PointersAndArrays/pointersAndArrays.i: C-basis/PointersAndArrays/pointersAndArrays.cpp.i
+
+.PHONY : C-basis/PointersAndArrays/pointersAndArrays.i
+
+# target to preprocess a source file
+C-basis/PointersAndArrays/pointersAndArrays.cpp.i:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.i
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.i
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.i
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.i
+	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.i
+	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.i
+	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.i
+	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.i
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.i
+	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.i
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.i
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.i
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.i
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.i
+	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.i
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.i
+.PHONY : C-basis/PointersAndArrays/pointersAndArrays.cpp.i
+
+C-basis/PointersAndArrays/pointersAndArrays.s: C-basis/PointersAndArrays/pointersAndArrays.cpp.s
+
+.PHONY : C-basis/PointersAndArrays/pointersAndArrays.s
+
+# target to generate assembly for a file
+C-basis/PointersAndArrays/pointersAndArrays.cpp.s:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.s
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.s
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.s
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.s
+	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.s
+	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.s
+	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.s
+	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.s
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.s
+	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.s
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.s
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.s
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.s
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.s
+	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.s
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.s
+.PHONY : C-basis/PointersAndArrays/pointersAndArrays.cpp.s
+
+C-basis/StructureAndClass/structureAndClass.o: C-basis/StructureAndClass/structureAndClass.cpp.o
+
+.PHONY : C-basis/StructureAndClass/structureAndClass.o
+
+# target to build an object file
+C-basis/StructureAndClass/structureAndClass.cpp.o:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/C-basis/StructureAndClass/structureAndClass.cpp.o
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/C-basis/StructureAndClass/structureAndClass.cpp.o
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/C-basis/StructureAndClass/structureAndClass.cpp.o
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/C-basis/StructureAndClass/structureAndClass.cpp.o
+	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/C-basis/StructureAndClass/structureAndClass.cpp.o
+	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/C-basis/StructureAndClass/structureAndClass.cpp.o
+	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/C-basis/StructureAndClass/structureAndClass.cpp.o
+	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/C-basis/StructureAndClass/structureAndClass.cpp.o
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/C-basis/StructureAndClass/structureAndClass.cpp.o
+	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/C-basis/StructureAndClass/structureAndClass.cpp.o
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C-basis/StructureAndClass/structureAndClass.cpp.o
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/C-basis/StructureAndClass/structureAndClass.cpp.o
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/C-basis/StructureAndClass/structureAndClass.cpp.o
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/C-basis/StructureAndClass/structureAndClass.cpp.o
+	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/C-basis/StructureAndClass/structureAndClass.cpp.o
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/C-basis/StructureAndClass/structureAndClass.cpp.o
+.PHONY : C-basis/StructureAndClass/structureAndClass.cpp.o
+
+C-basis/StructureAndClass/structureAndClass.i: C-basis/StructureAndClass/structureAndClass.cpp.i
+
+.PHONY : C-basis/StructureAndClass/structureAndClass.i
+
+# target to preprocess a source file
+C-basis/StructureAndClass/structureAndClass.cpp.i:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/C-basis/StructureAndClass/structureAndClass.cpp.i
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/C-basis/StructureAndClass/structureAndClass.cpp.i
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/C-basis/StructureAndClass/structureAndClass.cpp.i
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/C-basis/StructureAndClass/structureAndClass.cpp.i
+	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/C-basis/StructureAndClass/structureAndClass.cpp.i
+	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/C-basis/StructureAndClass/structureAndClass.cpp.i
+	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/C-basis/StructureAndClass/structureAndClass.cpp.i
+	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/C-basis/StructureAndClass/structureAndClass.cpp.i
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/C-basis/StructureAndClass/structureAndClass.cpp.i
+	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/C-basis/StructureAndClass/structureAndClass.cpp.i
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C-basis/StructureAndClass/structureAndClass.cpp.i
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/C-basis/StructureAndClass/structureAndClass.cpp.i
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/C-basis/StructureAndClass/structureAndClass.cpp.i
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/C-basis/StructureAndClass/structureAndClass.cpp.i
+	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/C-basis/StructureAndClass/structureAndClass.cpp.i
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/C-basis/StructureAndClass/structureAndClass.cpp.i
+.PHONY : C-basis/StructureAndClass/structureAndClass.cpp.i
+
+C-basis/StructureAndClass/structureAndClass.s: C-basis/StructureAndClass/structureAndClass.cpp.s
+
+.PHONY : C-basis/StructureAndClass/structureAndClass.s
+
+# target to generate assembly for a file
+C-basis/StructureAndClass/structureAndClass.cpp.s:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/C-basis/StructureAndClass/structureAndClass.cpp.s
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/C-basis/StructureAndClass/structureAndClass.cpp.s
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/C-basis/StructureAndClass/structureAndClass.cpp.s
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/C-basis/StructureAndClass/structureAndClass.cpp.s
+	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/C-basis/StructureAndClass/structureAndClass.cpp.s
+	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/C-basis/StructureAndClass/structureAndClass.cpp.s
+	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/C-basis/StructureAndClass/structureAndClass.cpp.s
+	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/C-basis/StructureAndClass/structureAndClass.cpp.s
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/C-basis/StructureAndClass/structureAndClass.cpp.s
+	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/C-basis/StructureAndClass/structureAndClass.cpp.s
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C-basis/StructureAndClass/structureAndClass.cpp.s
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/C-basis/StructureAndClass/structureAndClass.cpp.s
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/C-basis/StructureAndClass/structureAndClass.cpp.s
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/C-basis/StructureAndClass/structureAndClass.cpp.s
+	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/C-basis/StructureAndClass/structureAndClass.cpp.s
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/C-basis/StructureAndClass/structureAndClass.cpp.s
+.PHONY : C-basis/StructureAndClass/structureAndClass.cpp.s
+
+C-basis/TypeAndOperation/typeAndOperation.o: C-basis/TypeAndOperation/typeAndOperation.cpp.o
+
+.PHONY : C-basis/TypeAndOperation/typeAndOperation.o
+
+# target to build an object file
+C-basis/TypeAndOperation/typeAndOperation.cpp.o:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o
+	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o
+	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o
+	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o
+	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o
+	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o
+	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o
+.PHONY : C-basis/TypeAndOperation/typeAndOperation.cpp.o
+
+C-basis/TypeAndOperation/typeAndOperation.i: C-basis/TypeAndOperation/typeAndOperation.cpp.i
+
+.PHONY : C-basis/TypeAndOperation/typeAndOperation.i
+
+# target to preprocess a source file
+C-basis/TypeAndOperation/typeAndOperation.cpp.i:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.i
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.i
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.i
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.i
+	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.i
+	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.i
+	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.i
+	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.i
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.i
+	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.i
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.i
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.i
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.i
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.i
+	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.i
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.i
+.PHONY : C-basis/TypeAndOperation/typeAndOperation.cpp.i
+
+C-basis/TypeAndOperation/typeAndOperation.s: C-basis/TypeAndOperation/typeAndOperation.cpp.s
+
+.PHONY : C-basis/TypeAndOperation/typeAndOperation.s
+
+# target to generate assembly for a file
+C-basis/TypeAndOperation/typeAndOperation.cpp.s:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.s
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.s
+	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.s
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.s
+	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.s
+	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.s
+	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.s
+	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.s
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.s
+	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.s
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.s
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.s
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.s
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.s
+	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.s
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.s
+.PHONY : C-basis/TypeAndOperation/typeAndOperation.cpp.s
 
 CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.o: CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
 
@@ -516,21 +1026,45 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... linear-list"
-	@echo "... graph"
-	@echo "... file"
+	@echo "... tree"
+	@echo "... String"
+	@echo "... search"
 	@echo "... edit_cache"
 	@echo "... queue"
-	@echo "... array"
-	@echo "... sorting"
+	@echo "... rebuild_cache"
+	@echo "... controlAndFlow"
+	@echo "... functionAndPrograms"
+	@echo "... basis"
+	@echo "... pointersAndArrays"
 	@echo "... CMakeCXXCompilerId"
-	@echo "... search"
-	@echo "... String"
-	@echo "... tree"
+	@echo "... sorting"
+	@echo "... array"
+	@echo "... structureAndClass"
+	@echo "... typeAndOperation"
+	@echo "... graph"
+	@echo "... file"
+	@echo "... linear-list"
 	@echo "... Array/array.o"
 	@echo "... Array/array.i"
 	@echo "... Array/array.s"
+	@echo "... C-basis/Basis/basis.o"
+	@echo "... C-basis/Basis/basis.i"
+	@echo "... C-basis/Basis/basis.s"
+	@echo "... C-basis/ControlFlow/controlAndFlow.o"
+	@echo "... C-basis/ControlFlow/controlAndFlow.i"
+	@echo "... C-basis/ControlFlow/controlAndFlow.s"
+	@echo "... C-basis/FunctionAndPrograms/functionAndPrograms.o"
+	@echo "... C-basis/FunctionAndPrograms/functionAndPrograms.i"
+	@echo "... C-basis/FunctionAndPrograms/functionAndPrograms.s"
+	@echo "... C-basis/PointersAndArrays/pointersAndArrays.o"
+	@echo "... C-basis/PointersAndArrays/pointersAndArrays.i"
+	@echo "... C-basis/PointersAndArrays/pointersAndArrays.s"
+	@echo "... C-basis/StructureAndClass/structureAndClass.o"
+	@echo "... C-basis/StructureAndClass/structureAndClass.i"
+	@echo "... C-basis/StructureAndClass/structureAndClass.s"
+	@echo "... C-basis/TypeAndOperation/typeAndOperation.o"
+	@echo "... C-basis/TypeAndOperation/typeAndOperation.i"
+	@echo "... C-basis/TypeAndOperation/typeAndOperation.s"
 	@echo "... CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.o"
 	@echo "... CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.i"
 	@echo "... CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.s"

@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/array.dir/Array/array.cpp.o  -o array 
+/usr/bin/c++  -g   CMakeFiles/array.dir/Array/array.cpp.o CMakeFiles/array.dir/C-basis/Basis/basis.cpp.o CMakeFiles/array.dir/C-basis/ControlFlow/controlAndFlow.cpp.o CMakeFiles/array.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o CMakeFiles/array.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o CMakeFiles/array.dir/C-basis/StructureAndClass/structureAndClass.cpp.o CMakeFiles/array.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o  -o array 

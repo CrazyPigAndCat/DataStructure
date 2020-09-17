@@ -48,14 +48,20 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/linear-list.dir/DependInfo.cmake"
+  "CMakeFiles/tree.dir/DependInfo.cmake"
+  "CMakeFiles/String.dir/DependInfo.cmake"
+  "CMakeFiles/search.dir/DependInfo.cmake"
+  "CMakeFiles/queue.dir/DependInfo.cmake"
+  "CMakeFiles/controlAndFlow.dir/DependInfo.cmake"
+  "CMakeFiles/functionAndPrograms.dir/DependInfo.cmake"
+  "CMakeFiles/basis.dir/DependInfo.cmake"
+  "CMakeFiles/pointersAndArrays.dir/DependInfo.cmake"
+  "CMakeFiles/CMakeCXXCompilerId.dir/DependInfo.cmake"
+  "CMakeFiles/sorting.dir/DependInfo.cmake"
+  "CMakeFiles/array.dir/DependInfo.cmake"
+  "CMakeFiles/structureAndClass.dir/DependInfo.cmake"
+  "CMakeFiles/typeAndOperation.dir/DependInfo.cmake"
   "CMakeFiles/graph.dir/DependInfo.cmake"
   "CMakeFiles/file.dir/DependInfo.cmake"
-  "CMakeFiles/queue.dir/DependInfo.cmake"
-  "CMakeFiles/array.dir/DependInfo.cmake"
-  "CMakeFiles/sorting.dir/DependInfo.cmake"
-  "CMakeFiles/CMakeCXXCompilerId.dir/DependInfo.cmake"
-  "CMakeFiles/search.dir/DependInfo.cmake"
-  "CMakeFiles/String.dir/DependInfo.cmake"
-  "CMakeFiles/tree.dir/DependInfo.cmake"
+  "CMakeFiles/linear-list.dir/DependInfo.cmake"
   )
