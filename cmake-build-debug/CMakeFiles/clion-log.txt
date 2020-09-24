@@ -9,9 +9,14 @@
     -- src/file.cpp will be compiled to bin/file
     -- src/graph.cpp will be compiled to bin/graph
     -- src/linear-list.cpp will be compiled to bin/linear-list
+    -- src/array-queue.cpp will be compiled to bin/array-queue
+    -- src/link-queue.cpp will be compiled to bin/link-queue
     -- src/queue.cpp will be compiled to bin/queue
     -- src/search.cpp will be compiled to bin/search
     -- src/sorting.cpp will be compiled to bin/sorting
+    -- src/array-stack.cpp will be compiled to bin/array-stack
+    -- src/link-stack.cpp will be compiled to bin/link-stack
+    -- src/stack.cpp will be compiled to bin/stack
     -- src/String.cpp will be compiled to bin/String
     -- src/tree.cpp will be compiled to bin/tree
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId

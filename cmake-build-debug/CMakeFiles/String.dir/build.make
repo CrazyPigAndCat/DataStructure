@@ -70,107 +70,17 @@ CMakeFiles/String.dir/String/String.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/String.dir/String/String.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/puppet/WorkSpace/CLionProjects/DataStructure/String/String.cpp -o CMakeFiles/String.dir/String/String.cpp.s
 
-CMakeFiles/String.dir/C-basis/Basis/basis.cpp.o: CMakeFiles/String.dir/flags.make
-CMakeFiles/String.dir/C-basis/Basis/basis.cpp.o: ../C-basis/Basis/basis.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/String.dir/C-basis/Basis/basis.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/String.dir/C-basis/Basis/basis.cpp.o -c /home/puppet/WorkSpace/CLionProjects/DataStructure/C-basis/Basis/basis.cpp
-
-CMakeFiles/String.dir/C-basis/Basis/basis.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/String.dir/C-basis/Basis/basis.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/puppet/WorkSpace/CLionProjects/DataStructure/C-basis/Basis/basis.cpp > CMakeFiles/String.dir/C-basis/Basis/basis.cpp.i
-
-CMakeFiles/String.dir/C-basis/Basis/basis.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/String.dir/C-basis/Basis/basis.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/puppet/WorkSpace/CLionProjects/DataStructure/C-basis/Basis/basis.cpp -o CMakeFiles/String.dir/C-basis/Basis/basis.cpp.s
-
-CMakeFiles/String.dir/C-basis/ControlFlow/controlAndFlow.cpp.o: CMakeFiles/String.dir/flags.make
-CMakeFiles/String.dir/C-basis/ControlFlow/controlAndFlow.cpp.o: ../C-basis/ControlFlow/controlAndFlow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/String.dir/C-basis/ControlFlow/controlAndFlow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/String.dir/C-basis/ControlFlow/controlAndFlow.cpp.o -c /home/puppet/WorkSpace/CLionProjects/DataStructure/C-basis/ControlFlow/controlAndFlow.cpp
-
-CMakeFiles/String.dir/C-basis/ControlFlow/controlAndFlow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/String.dir/C-basis/ControlFlow/controlAndFlow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/puppet/WorkSpace/CLionProjects/DataStructure/C-basis/ControlFlow/controlAndFlow.cpp > CMakeFiles/String.dir/C-basis/ControlFlow/controlAndFlow.cpp.i
-
-CMakeFiles/String.dir/C-basis/ControlFlow/controlAndFlow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/String.dir/C-basis/ControlFlow/controlAndFlow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/puppet/WorkSpace/CLionProjects/DataStructure/C-basis/ControlFlow/controlAndFlow.cpp -o CMakeFiles/String.dir/C-basis/ControlFlow/controlAndFlow.cpp.s
-
-CMakeFiles/String.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o: CMakeFiles/String.dir/flags.make
-CMakeFiles/String.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o: ../C-basis/FunctionAndPrograms/functionAndPrograms.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/String.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/String.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o -c /home/puppet/WorkSpace/CLionProjects/DataStructure/C-basis/FunctionAndPrograms/functionAndPrograms.cpp
-
-CMakeFiles/String.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/String.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/puppet/WorkSpace/CLionProjects/DataStructure/C-basis/FunctionAndPrograms/functionAndPrograms.cpp > CMakeFiles/String.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.i
-
-CMakeFiles/String.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/String.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/puppet/WorkSpace/CLionProjects/DataStructure/C-basis/FunctionAndPrograms/functionAndPrograms.cpp -o CMakeFiles/String.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.s
-
-CMakeFiles/String.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o: CMakeFiles/String.dir/flags.make
-CMakeFiles/String.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o: ../C-basis/PointersAndArrays/pointersAndArrays.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/String.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/String.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o -c /home/puppet/WorkSpace/CLionProjects/DataStructure/C-basis/PointersAndArrays/pointersAndArrays.cpp
-
-CMakeFiles/String.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/String.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/puppet/WorkSpace/CLionProjects/DataStructure/C-basis/PointersAndArrays/pointersAndArrays.cpp > CMakeFiles/String.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.i
-
-CMakeFiles/String.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/String.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/puppet/WorkSpace/CLionProjects/DataStructure/C-basis/PointersAndArrays/pointersAndArrays.cpp -o CMakeFiles/String.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.s
-
-CMakeFiles/String.dir/C-basis/StructureAndClass/structureAndClass.cpp.o: CMakeFiles/String.dir/flags.make
-CMakeFiles/String.dir/C-basis/StructureAndClass/structureAndClass.cpp.o: ../C-basis/StructureAndClass/structureAndClass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/String.dir/C-basis/StructureAndClass/structureAndClass.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/String.dir/C-basis/StructureAndClass/structureAndClass.cpp.o -c /home/puppet/WorkSpace/CLionProjects/DataStructure/C-basis/StructureAndClass/structureAndClass.cpp
-
-CMakeFiles/String.dir/C-basis/StructureAndClass/structureAndClass.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/String.dir/C-basis/StructureAndClass/structureAndClass.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/puppet/WorkSpace/CLionProjects/DataStructure/C-basis/StructureAndClass/structureAndClass.cpp > CMakeFiles/String.dir/C-basis/StructureAndClass/structureAndClass.cpp.i
-
-CMakeFiles/String.dir/C-basis/StructureAndClass/structureAndClass.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/String.dir/C-basis/StructureAndClass/structureAndClass.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/puppet/WorkSpace/CLionProjects/DataStructure/C-basis/StructureAndClass/structureAndClass.cpp -o CMakeFiles/String.dir/C-basis/StructureAndClass/structureAndClass.cpp.s
-
-CMakeFiles/String.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o: CMakeFiles/String.dir/flags.make
-CMakeFiles/String.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o: ../C-basis/TypeAndOperation/typeAndOperation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/String.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/String.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o -c /home/puppet/WorkSpace/CLionProjects/DataStructure/C-basis/TypeAndOperation/typeAndOperation.cpp
-
-CMakeFiles/String.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/String.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/puppet/WorkSpace/CLionProjects/DataStructure/C-basis/TypeAndOperation/typeAndOperation.cpp > CMakeFiles/String.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.i
-
-CMakeFiles/String.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/String.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/puppet/WorkSpace/CLionProjects/DataStructure/C-basis/TypeAndOperation/typeAndOperation.cpp -o CMakeFiles/String.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.s
-
 # Object files for target String
 String_OBJECTS = \
-"CMakeFiles/String.dir/String/String.cpp.o" \
-"CMakeFiles/String.dir/C-basis/Basis/basis.cpp.o" \
-"CMakeFiles/String.dir/C-basis/ControlFlow/controlAndFlow.cpp.o" \
-"CMakeFiles/String.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o" \
-"CMakeFiles/String.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o" \
-"CMakeFiles/String.dir/C-basis/StructureAndClass/structureAndClass.cpp.o" \
-"CMakeFiles/String.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o"
+"CMakeFiles/String.dir/String/String.cpp.o"
 
 # External object files for target String
 String_EXTERNAL_OBJECTS =
 
 String: CMakeFiles/String.dir/String/String.cpp.o
-String: CMakeFiles/String.dir/C-basis/Basis/basis.cpp.o
-String: CMakeFiles/String.dir/C-basis/ControlFlow/controlAndFlow.cpp.o
-String: CMakeFiles/String.dir/C-basis/FunctionAndPrograms/functionAndPrograms.cpp.o
-String: CMakeFiles/String.dir/C-basis/PointersAndArrays/pointersAndArrays.cpp.o
-String: CMakeFiles/String.dir/C-basis/StructureAndClass/structureAndClass.cpp.o
-String: CMakeFiles/String.dir/C-basis/TypeAndOperation/typeAndOperation.cpp.o
 String: CMakeFiles/String.dir/build.make
 String: CMakeFiles/String.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable String"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable String"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/String.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
