@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-buil
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/puppet/clion/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/puppet/clion/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -163,32 +163,6 @@ stack/fast:
 .PHONY : stack/fast
 
 #=============================================================================
-# Target rules for targets named linear-list
-
-# Build rule for target.
-linear-list: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 linear-list
-.PHONY : linear-list
-
-# fast build rule for target.
-linear-list/fast:
-	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/build
-.PHONY : linear-list/fast
-
-#=============================================================================
-# Target rules for targets named array
-
-# Build rule for target.
-array: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 array
-.PHONY : array
-
-# fast build rule for target.
-array/fast:
-	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/build
-.PHONY : array/fast
-
-#=============================================================================
 # Target rules for targets named CMakeCXXCompilerId
 
 # Build rule for target.
@@ -200,6 +174,45 @@ CMakeCXXCompilerId: cmake_check_build_system
 CMakeCXXCompilerId/fast:
 	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/build
 .PHONY : CMakeCXXCompilerId/fast
+
+#=============================================================================
+# Target rules for targets named array-linear
+
+# Build rule for target.
+array-linear: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 array-linear
+.PHONY : array-linear
+
+# fast build rule for target.
+array-linear/fast:
+	$(MAKE) -f CMakeFiles/array-linear.dir/build.make CMakeFiles/array-linear.dir/build
+.PHONY : array-linear/fast
+
+#=============================================================================
+# Target rules for targets named typeAndOperation
+
+# Build rule for target.
+typeAndOperation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 typeAndOperation
+.PHONY : typeAndOperation
+
+# fast build rule for target.
+typeAndOperation/fast:
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/build
+.PHONY : typeAndOperation/fast
+
+#=============================================================================
+# Target rules for targets named link-queue
+
+# Build rule for target.
+link-queue: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 link-queue
+.PHONY : link-queue
+
+# fast build rule for target.
+link-queue/fast:
+	$(MAKE) -f CMakeFiles/link-queue.dir/build.make CMakeFiles/link-queue.dir/build
+.PHONY : link-queue/fast
 
 #=============================================================================
 # Target rules for targets named pointersAndArrays
@@ -267,30 +280,30 @@ array-stack/fast:
 .PHONY : array-stack/fast
 
 #=============================================================================
-# Target rules for targets named typeAndOperation
+# Target rules for targets named array
 
 # Build rule for target.
-typeAndOperation: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 typeAndOperation
-.PHONY : typeAndOperation
+array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 array
+.PHONY : array
 
 # fast build rule for target.
-typeAndOperation/fast:
-	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/build
-.PHONY : typeAndOperation/fast
+array/fast:
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/build
+.PHONY : array/fast
 
 #=============================================================================
-# Target rules for targets named link-queue
+# Target rules for targets named linear-list
 
 # Build rule for target.
-link-queue: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 link-queue
-.PHONY : link-queue
+linear-list: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 linear-list
+.PHONY : linear-list
 
 # fast build rule for target.
-link-queue/fast:
-	$(MAKE) -f CMakeFiles/link-queue.dir/build.make CMakeFiles/link-queue.dir/build
-.PHONY : link-queue/fast
+linear-list/fast:
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/build
+.PHONY : linear-list/fast
 
 #=============================================================================
 # Target rules for targets named queue
@@ -653,6 +666,33 @@ Graph/graph.cpp.s:
 	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/Graph/graph.cpp.s
 .PHONY : Graph/graph.cpp.s
 
+Linear-list/array-linear.o: Linear-list/array-linear.cpp.o
+
+.PHONY : Linear-list/array-linear.o
+
+# target to build an object file
+Linear-list/array-linear.cpp.o:
+	$(MAKE) -f CMakeFiles/array-linear.dir/build.make CMakeFiles/array-linear.dir/Linear-list/array-linear.cpp.o
+.PHONY : Linear-list/array-linear.cpp.o
+
+Linear-list/array-linear.i: Linear-list/array-linear.cpp.i
+
+.PHONY : Linear-list/array-linear.i
+
+# target to preprocess a source file
+Linear-list/array-linear.cpp.i:
+	$(MAKE) -f CMakeFiles/array-linear.dir/build.make CMakeFiles/array-linear.dir/Linear-list/array-linear.cpp.i
+.PHONY : Linear-list/array-linear.cpp.i
+
+Linear-list/array-linear.s: Linear-list/array-linear.cpp.s
+
+.PHONY : Linear-list/array-linear.s
+
+# target to generate assembly for a file
+Linear-list/array-linear.cpp.s:
+	$(MAKE) -f CMakeFiles/array-linear.dir/build.make CMakeFiles/array-linear.dir/Linear-list/array-linear.cpp.s
+.PHONY : Linear-list/array-linear.cpp.s
+
 Linear-list/linear-list.o: Linear-list/linear-list.cpp.o
 
 .PHONY : Linear-list/linear-list.o
@@ -956,23 +996,24 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... edit_cache"
 	@echo "... graph"
 	@echo "... array-queue"
 	@echo "... structureAndClass"
 	@echo "... stack"
-	@echo "... linear-list"
-	@echo "... array"
 	@echo "... CMakeCXXCompilerId"
+	@echo "... array-linear"
+	@echo "... rebuild_cache"
+	@echo "... typeAndOperation"
+	@echo "... link-queue"
 	@echo "... pointersAndArrays"
 	@echo "... basis"
 	@echo "... functionAndPrograms"
 	@echo "... controlAndFlow"
 	@echo "... array-stack"
-	@echo "... rebuild_cache"
-	@echo "... typeAndOperation"
-	@echo "... link-queue"
+	@echo "... array"
+	@echo "... linear-list"
 	@echo "... queue"
-	@echo "... edit_cache"
 	@echo "... sorting"
 	@echo "... search"
 	@echo "... String"
@@ -1009,6 +1050,9 @@ help:
 	@echo "... Graph/graph.o"
 	@echo "... Graph/graph.i"
 	@echo "... Graph/graph.s"
+	@echo "... Linear-list/array-linear.o"
+	@echo "... Linear-list/array-linear.i"
+	@echo "... Linear-list/array-linear.s"
 	@echo "... Linear-list/linear-list.o"
 	@echo "... Linear-list/linear-list.i"
 	@echo "... Linear-list/linear-list.s"
