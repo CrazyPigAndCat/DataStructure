@@ -111,6 +111,136 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named CMakeCXXCompilerId
+
+# Build rule for target.
+CMakeCXXCompilerId: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeCXXCompilerId
+.PHONY : CMakeCXXCompilerId
+
+# fast build rule for target.
+CMakeCXXCompilerId/fast:
+	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/build
+.PHONY : CMakeCXXCompilerId/fast
+
+#=============================================================================
+# Target rules for targets named tree
+
+# Build rule for target.
+tree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tree
+.PHONY : tree
+
+# fast build rule for target.
+tree/fast:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
+.PHONY : tree/fast
+
+#=============================================================================
+# Target rules for targets named link-tree
+
+# Build rule for target.
+link-tree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 link-tree
+.PHONY : link-tree
+
+# fast build rule for target.
+link-tree/fast:
+	$(MAKE) -f CMakeFiles/link-tree.dir/build.make CMakeFiles/link-tree.dir/build
+.PHONY : link-tree/fast
+
+#=============================================================================
+# Target rules for targets named Pre-order
+
+# Build rule for target.
+Pre-order: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pre-order
+.PHONY : Pre-order
+
+# fast build rule for target.
+Pre-order/fast:
+	$(MAKE) -f CMakeFiles/Pre-order.dir/build.make CMakeFiles/Pre-order.dir/build
+.PHONY : Pre-order/fast
+
+#=============================================================================
+# Target rules for targets named array-tree
+
+# Build rule for target.
+array-tree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 array-tree
+.PHONY : array-tree
+
+# fast build rule for target.
+array-tree/fast:
+	$(MAKE) -f CMakeFiles/array-tree.dir/build.make CMakeFiles/array-tree.dir/build
+.PHONY : array-tree/fast
+
+#=============================================================================
+# Target rules for targets named Post-order
+
+# Build rule for target.
+Post-order: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Post-order
+.PHONY : Post-order
+
+# fast build rule for target.
+Post-order/fast:
+	$(MAKE) -f CMakeFiles/Post-order.dir/build.make CMakeFiles/Post-order.dir/build
+.PHONY : Post-order/fast
+
+#=============================================================================
+# Target rules for targets named Level-order
+
+# Build rule for target.
+Level-order: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Level-order
+.PHONY : Level-order
+
+# fast build rule for target.
+Level-order/fast:
+	$(MAKE) -f CMakeFiles/Level-order.dir/build.make CMakeFiles/Level-order.dir/build
+.PHONY : Level-order/fast
+
+#=============================================================================
+# Target rules for targets named In-order
+
+# Build rule for target.
+In-order: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 In-order
+.PHONY : In-order
+
+# fast build rule for target.
+In-order/fast:
+	$(MAKE) -f CMakeFiles/In-order.dir/build.make CMakeFiles/In-order.dir/build
+.PHONY : In-order/fast
+
+#=============================================================================
+# Target rules for targets named string-info
+
+# Build rule for target.
+string-info: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 string-info
+.PHONY : string-info
+
+# fast build rule for target.
+string-info/fast:
+	$(MAKE) -f CMakeFiles/string-info.dir/build.make CMakeFiles/string-info.dir/build
+.PHONY : string-info/fast
+
+#=============================================================================
+# Target rules for targets named String
+
+# Build rule for target.
+String: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 String
+.PHONY : String
+
+# fast build rule for target.
+String/fast:
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/build
+.PHONY : String/fast
+
+#=============================================================================
 # Target rules for targets named graph
 
 # Build rule for target.
@@ -137,6 +267,19 @@ array-queue/fast:
 .PHONY : array-queue/fast
 
 #=============================================================================
+# Target rules for targets named KMP-pro
+
+# Build rule for target.
+KMP-pro: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 KMP-pro
+.PHONY : KMP-pro
+
+# fast build rule for target.
+KMP-pro/fast:
+	$(MAKE) -f CMakeFiles/KMP-pro.dir/build.make CMakeFiles/KMP-pro.dir/build
+.PHONY : KMP-pro/fast
+
+#=============================================================================
 # Target rules for targets named structureAndClass
 
 # Build rule for target.
@@ -161,19 +304,6 @@ stack: cmake_check_build_system
 stack/fast:
 	$(MAKE) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/build
 .PHONY : stack/fast
-
-#=============================================================================
-# Target rules for targets named CMakeCXXCompilerId
-
-# Build rule for target.
-CMakeCXXCompilerId: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeCXXCompilerId
-.PHONY : CMakeCXXCompilerId
-
-# fast build rule for target.
-CMakeCXXCompilerId/fast:
-	$(MAKE) -f CMakeFiles/CMakeCXXCompilerId.dir/build.make CMakeFiles/CMakeCXXCompilerId.dir/build
-.PHONY : CMakeCXXCompilerId/fast
 
 #=============================================================================
 # Target rules for targets named array-linear
@@ -280,6 +410,19 @@ array-stack/fast:
 .PHONY : array-stack/fast
 
 #=============================================================================
+# Target rules for targets named KMP
+
+# Build rule for target.
+KMP: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 KMP
+.PHONY : KMP
+
+# fast build rule for target.
+KMP/fast:
+	$(MAKE) -f CMakeFiles/KMP.dir/build.make CMakeFiles/KMP.dir/build
+.PHONY : KMP/fast
+
+#=============================================================================
 # Target rules for targets named array
 
 # Build rule for target.
@@ -345,32 +488,6 @@ search/fast:
 .PHONY : search/fast
 
 #=============================================================================
-# Target rules for targets named String
-
-# Build rule for target.
-String: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 String
-.PHONY : String
-
-# fast build rule for target.
-String/fast:
-	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/build
-.PHONY : String/fast
-
-#=============================================================================
-# Target rules for targets named tree
-
-# Build rule for target.
-tree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tree
-.PHONY : tree
-
-# fast build rule for target.
-tree/fast:
-	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
-.PHONY : tree/fast
-
-#=============================================================================
 # Target rules for targets named file
 
 # Build rule for target.
@@ -395,6 +512,19 @@ link-stack: cmake_check_build_system
 link-stack/fast:
 	$(MAKE) -f CMakeFiles/link-stack.dir/build.make CMakeFiles/link-stack.dir/build
 .PHONY : link-stack/fast
+
+#=============================================================================
+# Target rules for targets named KMP-next
+
+# Build rule for target.
+KMP-next: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 KMP-next
+.PHONY : KMP-next
+
+# fast build rule for target.
+KMP-next/fast:
+	$(MAKE) -f CMakeFiles/KMP-next.dir/build.make CMakeFiles/KMP-next.dir/build
+.PHONY : KMP-next/fast
 
 Array/array.o: Array/array.cpp.o
 
@@ -936,6 +1066,87 @@ Stack/stack.cpp.s:
 	$(MAKE) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/Stack/stack.cpp.s
 .PHONY : Stack/stack.cpp.s
 
+String/KMP-next.o: String/KMP-next.cpp.o
+
+.PHONY : String/KMP-next.o
+
+# target to build an object file
+String/KMP-next.cpp.o:
+	$(MAKE) -f CMakeFiles/KMP-next.dir/build.make CMakeFiles/KMP-next.dir/String/KMP-next.cpp.o
+.PHONY : String/KMP-next.cpp.o
+
+String/KMP-next.i: String/KMP-next.cpp.i
+
+.PHONY : String/KMP-next.i
+
+# target to preprocess a source file
+String/KMP-next.cpp.i:
+	$(MAKE) -f CMakeFiles/KMP-next.dir/build.make CMakeFiles/KMP-next.dir/String/KMP-next.cpp.i
+.PHONY : String/KMP-next.cpp.i
+
+String/KMP-next.s: String/KMP-next.cpp.s
+
+.PHONY : String/KMP-next.s
+
+# target to generate assembly for a file
+String/KMP-next.cpp.s:
+	$(MAKE) -f CMakeFiles/KMP-next.dir/build.make CMakeFiles/KMP-next.dir/String/KMP-next.cpp.s
+.PHONY : String/KMP-next.cpp.s
+
+String/KMP-pro.o: String/KMP-pro.cpp.o
+
+.PHONY : String/KMP-pro.o
+
+# target to build an object file
+String/KMP-pro.cpp.o:
+	$(MAKE) -f CMakeFiles/KMP-pro.dir/build.make CMakeFiles/KMP-pro.dir/String/KMP-pro.cpp.o
+.PHONY : String/KMP-pro.cpp.o
+
+String/KMP-pro.i: String/KMP-pro.cpp.i
+
+.PHONY : String/KMP-pro.i
+
+# target to preprocess a source file
+String/KMP-pro.cpp.i:
+	$(MAKE) -f CMakeFiles/KMP-pro.dir/build.make CMakeFiles/KMP-pro.dir/String/KMP-pro.cpp.i
+.PHONY : String/KMP-pro.cpp.i
+
+String/KMP-pro.s: String/KMP-pro.cpp.s
+
+.PHONY : String/KMP-pro.s
+
+# target to generate assembly for a file
+String/KMP-pro.cpp.s:
+	$(MAKE) -f CMakeFiles/KMP-pro.dir/build.make CMakeFiles/KMP-pro.dir/String/KMP-pro.cpp.s
+.PHONY : String/KMP-pro.cpp.s
+
+String/KMP.o: String/KMP.cpp.o
+
+.PHONY : String/KMP.o
+
+# target to build an object file
+String/KMP.cpp.o:
+	$(MAKE) -f CMakeFiles/KMP.dir/build.make CMakeFiles/KMP.dir/String/KMP.cpp.o
+.PHONY : String/KMP.cpp.o
+
+String/KMP.i: String/KMP.cpp.i
+
+.PHONY : String/KMP.i
+
+# target to preprocess a source file
+String/KMP.cpp.i:
+	$(MAKE) -f CMakeFiles/KMP.dir/build.make CMakeFiles/KMP.dir/String/KMP.cpp.i
+.PHONY : String/KMP.cpp.i
+
+String/KMP.s: String/KMP.cpp.s
+
+.PHONY : String/KMP.s
+
+# target to generate assembly for a file
+String/KMP.cpp.s:
+	$(MAKE) -f CMakeFiles/KMP.dir/build.make CMakeFiles/KMP.dir/String/KMP.cpp.s
+.PHONY : String/KMP.cpp.s
+
 String/String.o: String/String.cpp.o
 
 .PHONY : String/String.o
@@ -962,6 +1173,195 @@ String/String.s: String/String.cpp.s
 String/String.cpp.s:
 	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/String/String.cpp.s
 .PHONY : String/String.cpp.s
+
+String/string-info.o: String/string-info.cpp.o
+
+.PHONY : String/string-info.o
+
+# target to build an object file
+String/string-info.cpp.o:
+	$(MAKE) -f CMakeFiles/string-info.dir/build.make CMakeFiles/string-info.dir/String/string-info.cpp.o
+.PHONY : String/string-info.cpp.o
+
+String/string-info.i: String/string-info.cpp.i
+
+.PHONY : String/string-info.i
+
+# target to preprocess a source file
+String/string-info.cpp.i:
+	$(MAKE) -f CMakeFiles/string-info.dir/build.make CMakeFiles/string-info.dir/String/string-info.cpp.i
+.PHONY : String/string-info.cpp.i
+
+String/string-info.s: String/string-info.cpp.s
+
+.PHONY : String/string-info.s
+
+# target to generate assembly for a file
+String/string-info.cpp.s:
+	$(MAKE) -f CMakeFiles/string-info.dir/build.make CMakeFiles/string-info.dir/String/string-info.cpp.s
+.PHONY : String/string-info.cpp.s
+
+Tree/In-order.o: Tree/In-order.cpp.o
+
+.PHONY : Tree/In-order.o
+
+# target to build an object file
+Tree/In-order.cpp.o:
+	$(MAKE) -f CMakeFiles/In-order.dir/build.make CMakeFiles/In-order.dir/Tree/In-order.cpp.o
+.PHONY : Tree/In-order.cpp.o
+
+Tree/In-order.i: Tree/In-order.cpp.i
+
+.PHONY : Tree/In-order.i
+
+# target to preprocess a source file
+Tree/In-order.cpp.i:
+	$(MAKE) -f CMakeFiles/In-order.dir/build.make CMakeFiles/In-order.dir/Tree/In-order.cpp.i
+.PHONY : Tree/In-order.cpp.i
+
+Tree/In-order.s: Tree/In-order.cpp.s
+
+.PHONY : Tree/In-order.s
+
+# target to generate assembly for a file
+Tree/In-order.cpp.s:
+	$(MAKE) -f CMakeFiles/In-order.dir/build.make CMakeFiles/In-order.dir/Tree/In-order.cpp.s
+.PHONY : Tree/In-order.cpp.s
+
+Tree/Level-order.o: Tree/Level-order.cpp.o
+
+.PHONY : Tree/Level-order.o
+
+# target to build an object file
+Tree/Level-order.cpp.o:
+	$(MAKE) -f CMakeFiles/Level-order.dir/build.make CMakeFiles/Level-order.dir/Tree/Level-order.cpp.o
+.PHONY : Tree/Level-order.cpp.o
+
+Tree/Level-order.i: Tree/Level-order.cpp.i
+
+.PHONY : Tree/Level-order.i
+
+# target to preprocess a source file
+Tree/Level-order.cpp.i:
+	$(MAKE) -f CMakeFiles/Level-order.dir/build.make CMakeFiles/Level-order.dir/Tree/Level-order.cpp.i
+.PHONY : Tree/Level-order.cpp.i
+
+Tree/Level-order.s: Tree/Level-order.cpp.s
+
+.PHONY : Tree/Level-order.s
+
+# target to generate assembly for a file
+Tree/Level-order.cpp.s:
+	$(MAKE) -f CMakeFiles/Level-order.dir/build.make CMakeFiles/Level-order.dir/Tree/Level-order.cpp.s
+.PHONY : Tree/Level-order.cpp.s
+
+Tree/Post-order.o: Tree/Post-order.cpp.o
+
+.PHONY : Tree/Post-order.o
+
+# target to build an object file
+Tree/Post-order.cpp.o:
+	$(MAKE) -f CMakeFiles/Post-order.dir/build.make CMakeFiles/Post-order.dir/Tree/Post-order.cpp.o
+.PHONY : Tree/Post-order.cpp.o
+
+Tree/Post-order.i: Tree/Post-order.cpp.i
+
+.PHONY : Tree/Post-order.i
+
+# target to preprocess a source file
+Tree/Post-order.cpp.i:
+	$(MAKE) -f CMakeFiles/Post-order.dir/build.make CMakeFiles/Post-order.dir/Tree/Post-order.cpp.i
+.PHONY : Tree/Post-order.cpp.i
+
+Tree/Post-order.s: Tree/Post-order.cpp.s
+
+.PHONY : Tree/Post-order.s
+
+# target to generate assembly for a file
+Tree/Post-order.cpp.s:
+	$(MAKE) -f CMakeFiles/Post-order.dir/build.make CMakeFiles/Post-order.dir/Tree/Post-order.cpp.s
+.PHONY : Tree/Post-order.cpp.s
+
+Tree/Pre-order.o: Tree/Pre-order.cpp.o
+
+.PHONY : Tree/Pre-order.o
+
+# target to build an object file
+Tree/Pre-order.cpp.o:
+	$(MAKE) -f CMakeFiles/Pre-order.dir/build.make CMakeFiles/Pre-order.dir/Tree/Pre-order.cpp.o
+.PHONY : Tree/Pre-order.cpp.o
+
+Tree/Pre-order.i: Tree/Pre-order.cpp.i
+
+.PHONY : Tree/Pre-order.i
+
+# target to preprocess a source file
+Tree/Pre-order.cpp.i:
+	$(MAKE) -f CMakeFiles/Pre-order.dir/build.make CMakeFiles/Pre-order.dir/Tree/Pre-order.cpp.i
+.PHONY : Tree/Pre-order.cpp.i
+
+Tree/Pre-order.s: Tree/Pre-order.cpp.s
+
+.PHONY : Tree/Pre-order.s
+
+# target to generate assembly for a file
+Tree/Pre-order.cpp.s:
+	$(MAKE) -f CMakeFiles/Pre-order.dir/build.make CMakeFiles/Pre-order.dir/Tree/Pre-order.cpp.s
+.PHONY : Tree/Pre-order.cpp.s
+
+Tree/array-tree.o: Tree/array-tree.cpp.o
+
+.PHONY : Tree/array-tree.o
+
+# target to build an object file
+Tree/array-tree.cpp.o:
+	$(MAKE) -f CMakeFiles/array-tree.dir/build.make CMakeFiles/array-tree.dir/Tree/array-tree.cpp.o
+.PHONY : Tree/array-tree.cpp.o
+
+Tree/array-tree.i: Tree/array-tree.cpp.i
+
+.PHONY : Tree/array-tree.i
+
+# target to preprocess a source file
+Tree/array-tree.cpp.i:
+	$(MAKE) -f CMakeFiles/array-tree.dir/build.make CMakeFiles/array-tree.dir/Tree/array-tree.cpp.i
+.PHONY : Tree/array-tree.cpp.i
+
+Tree/array-tree.s: Tree/array-tree.cpp.s
+
+.PHONY : Tree/array-tree.s
+
+# target to generate assembly for a file
+Tree/array-tree.cpp.s:
+	$(MAKE) -f CMakeFiles/array-tree.dir/build.make CMakeFiles/array-tree.dir/Tree/array-tree.cpp.s
+.PHONY : Tree/array-tree.cpp.s
+
+Tree/link-tree.o: Tree/link-tree.cpp.o
+
+.PHONY : Tree/link-tree.o
+
+# target to build an object file
+Tree/link-tree.cpp.o:
+	$(MAKE) -f CMakeFiles/link-tree.dir/build.make CMakeFiles/link-tree.dir/Tree/link-tree.cpp.o
+.PHONY : Tree/link-tree.cpp.o
+
+Tree/link-tree.i: Tree/link-tree.cpp.i
+
+.PHONY : Tree/link-tree.i
+
+# target to preprocess a source file
+Tree/link-tree.cpp.i:
+	$(MAKE) -f CMakeFiles/link-tree.dir/build.make CMakeFiles/link-tree.dir/Tree/link-tree.cpp.i
+.PHONY : Tree/link-tree.cpp.i
+
+Tree/link-tree.s: Tree/link-tree.cpp.s
+
+.PHONY : Tree/link-tree.s
+
+# target to generate assembly for a file
+Tree/link-tree.cpp.s:
+	$(MAKE) -f CMakeFiles/link-tree.dir/build.make CMakeFiles/link-tree.dir/Tree/link-tree.cpp.s
+.PHONY : Tree/link-tree.cpp.s
 
 Tree/tree.o: Tree/tree.cpp.o
 
@@ -997,11 +1397,21 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... CMakeCXXCompilerId"
+	@echo "... tree"
+	@echo "... link-tree"
+	@echo "... Pre-order"
+	@echo "... array-tree"
+	@echo "... Post-order"
+	@echo "... Level-order"
+	@echo "... In-order"
+	@echo "... string-info"
+	@echo "... String"
 	@echo "... graph"
 	@echo "... array-queue"
+	@echo "... KMP-pro"
 	@echo "... structureAndClass"
 	@echo "... stack"
-	@echo "... CMakeCXXCompilerId"
 	@echo "... array-linear"
 	@echo "... rebuild_cache"
 	@echo "... typeAndOperation"
@@ -1011,15 +1421,15 @@ help:
 	@echo "... functionAndPrograms"
 	@echo "... controlAndFlow"
 	@echo "... array-stack"
+	@echo "... KMP"
 	@echo "... array"
 	@echo "... linear-list"
 	@echo "... queue"
 	@echo "... sorting"
 	@echo "... search"
-	@echo "... String"
-	@echo "... tree"
 	@echo "... file"
 	@echo "... link-stack"
+	@echo "... KMP-next"
 	@echo "... Array/array.o"
 	@echo "... Array/array.i"
 	@echo "... Array/array.s"
@@ -1080,9 +1490,39 @@ help:
 	@echo "... Stack/stack.o"
 	@echo "... Stack/stack.i"
 	@echo "... Stack/stack.s"
+	@echo "... String/KMP-next.o"
+	@echo "... String/KMP-next.i"
+	@echo "... String/KMP-next.s"
+	@echo "... String/KMP-pro.o"
+	@echo "... String/KMP-pro.i"
+	@echo "... String/KMP-pro.s"
+	@echo "... String/KMP.o"
+	@echo "... String/KMP.i"
+	@echo "... String/KMP.s"
 	@echo "... String/String.o"
 	@echo "... String/String.i"
 	@echo "... String/String.s"
+	@echo "... String/string-info.o"
+	@echo "... String/string-info.i"
+	@echo "... String/string-info.s"
+	@echo "... Tree/In-order.o"
+	@echo "... Tree/In-order.i"
+	@echo "... Tree/In-order.s"
+	@echo "... Tree/Level-order.o"
+	@echo "... Tree/Level-order.i"
+	@echo "... Tree/Level-order.s"
+	@echo "... Tree/Post-order.o"
+	@echo "... Tree/Post-order.i"
+	@echo "... Tree/Post-order.s"
+	@echo "... Tree/Pre-order.o"
+	@echo "... Tree/Pre-order.i"
+	@echo "... Tree/Pre-order.s"
+	@echo "... Tree/array-tree.o"
+	@echo "... Tree/array-tree.i"
+	@echo "... Tree/array-tree.s"
+	@echo "... Tree/link-tree.o"
+	@echo "... Tree/link-tree.i"
+	@echo "... Tree/link-tree.s"
 	@echo "... Tree/tree.o"
 	@echo "... Tree/tree.i"
 	@echo "... Tree/tree.s"

@@ -53,11 +53,21 @@ CMAKE_BINARY_DIR = /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-buil
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/CMakeCXXCompilerId.dir/all
+all: CMakeFiles/tree.dir/all
+all: CMakeFiles/link-tree.dir/all
+all: CMakeFiles/Pre-order.dir/all
+all: CMakeFiles/array-tree.dir/all
+all: CMakeFiles/Post-order.dir/all
+all: CMakeFiles/Level-order.dir/all
+all: CMakeFiles/In-order.dir/all
+all: CMakeFiles/string-info.dir/all
+all: CMakeFiles/String.dir/all
 all: CMakeFiles/graph.dir/all
 all: CMakeFiles/array-queue.dir/all
+all: CMakeFiles/KMP-pro.dir/all
 all: CMakeFiles/structureAndClass.dir/all
 all: CMakeFiles/stack.dir/all
-all: CMakeFiles/CMakeCXXCompilerId.dir/all
 all: CMakeFiles/array-linear.dir/all
 all: CMakeFiles/typeAndOperation.dir/all
 all: CMakeFiles/link-queue.dir/all
@@ -66,15 +76,15 @@ all: CMakeFiles/basis.dir/all
 all: CMakeFiles/functionAndPrograms.dir/all
 all: CMakeFiles/controlAndFlow.dir/all
 all: CMakeFiles/array-stack.dir/all
+all: CMakeFiles/KMP.dir/all
 all: CMakeFiles/array.dir/all
 all: CMakeFiles/linear-list.dir/all
 all: CMakeFiles/queue.dir/all
 all: CMakeFiles/sorting.dir/all
 all: CMakeFiles/search.dir/all
-all: CMakeFiles/String.dir/all
-all: CMakeFiles/tree.dir/all
 all: CMakeFiles/file.dir/all
 all: CMakeFiles/link-stack.dir/all
+all: CMakeFiles/KMP-next.dir/all
 
 .PHONY : all
 
@@ -84,11 +94,21 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/CMakeCXXCompilerId.dir/clean
+clean: CMakeFiles/tree.dir/clean
+clean: CMakeFiles/link-tree.dir/clean
+clean: CMakeFiles/Pre-order.dir/clean
+clean: CMakeFiles/array-tree.dir/clean
+clean: CMakeFiles/Post-order.dir/clean
+clean: CMakeFiles/Level-order.dir/clean
+clean: CMakeFiles/In-order.dir/clean
+clean: CMakeFiles/string-info.dir/clean
+clean: CMakeFiles/String.dir/clean
 clean: CMakeFiles/graph.dir/clean
 clean: CMakeFiles/array-queue.dir/clean
+clean: CMakeFiles/KMP-pro.dir/clean
 clean: CMakeFiles/structureAndClass.dir/clean
 clean: CMakeFiles/stack.dir/clean
-clean: CMakeFiles/CMakeCXXCompilerId.dir/clean
 clean: CMakeFiles/array-linear.dir/clean
 clean: CMakeFiles/typeAndOperation.dir/clean
 clean: CMakeFiles/link-queue.dir/clean
@@ -97,125 +117,17 @@ clean: CMakeFiles/basis.dir/clean
 clean: CMakeFiles/functionAndPrograms.dir/clean
 clean: CMakeFiles/controlAndFlow.dir/clean
 clean: CMakeFiles/array-stack.dir/clean
+clean: CMakeFiles/KMP.dir/clean
 clean: CMakeFiles/array.dir/clean
 clean: CMakeFiles/linear-list.dir/clean
 clean: CMakeFiles/queue.dir/clean
 clean: CMakeFiles/sorting.dir/clean
 clean: CMakeFiles/search.dir/clean
-clean: CMakeFiles/String.dir/clean
-clean: CMakeFiles/tree.dir/clean
 clean: CMakeFiles/file.dir/clean
 clean: CMakeFiles/link-stack.dir/clean
+clean: CMakeFiles/KMP-next.dir/clean
 
 .PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/graph.dir
-
-# All Build rule for target.
-CMakeFiles/graph.dir/all:
-	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/depend
-	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target graph"
-.PHONY : CMakeFiles/graph.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/graph.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/graph.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/graph.dir/rule
-
-# Convenience name for target.
-graph: CMakeFiles/graph.dir/rule
-
-.PHONY : graph
-
-# clean rule for target.
-CMakeFiles/graph.dir/clean:
-	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/clean
-.PHONY : CMakeFiles/graph.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/array-queue.dir
-
-# All Build rule for target.
-CMakeFiles/array-queue.dir/all:
-	$(MAKE) -f CMakeFiles/array-queue.dir/build.make CMakeFiles/array-queue.dir/depend
-	$(MAKE) -f CMakeFiles/array-queue.dir/build.make CMakeFiles/array-queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target array-queue"
-.PHONY : CMakeFiles/array-queue.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/array-queue.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/array-queue.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/array-queue.dir/rule
-
-# Convenience name for target.
-array-queue: CMakeFiles/array-queue.dir/rule
-
-.PHONY : array-queue
-
-# clean rule for target.
-CMakeFiles/array-queue.dir/clean:
-	$(MAKE) -f CMakeFiles/array-queue.dir/build.make CMakeFiles/array-queue.dir/clean
-.PHONY : CMakeFiles/array-queue.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/structureAndClass.dir
-
-# All Build rule for target.
-CMakeFiles/structureAndClass.dir/all:
-	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/depend
-	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target structureAndClass"
-.PHONY : CMakeFiles/structureAndClass.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/structureAndClass.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/structureAndClass.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/structureAndClass.dir/rule
-
-# Convenience name for target.
-structureAndClass: CMakeFiles/structureAndClass.dir/rule
-
-.PHONY : structureAndClass
-
-# clean rule for target.
-CMakeFiles/structureAndClass.dir/clean:
-	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/clean
-.PHONY : CMakeFiles/structureAndClass.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/stack.dir
-
-# All Build rule for target.
-CMakeFiles/stack.dir/all:
-	$(MAKE) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/depend
-	$(MAKE) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target stack"
-.PHONY : CMakeFiles/stack.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/stack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/stack.dir/rule
-
-# Convenience name for target.
-stack: CMakeFiles/stack.dir/rule
-
-.PHONY : stack
-
-# clean rule for target.
-CMakeFiles/stack.dir/clean:
-	$(MAKE) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/clean
-.PHONY : CMakeFiles/stack.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/CMakeCXXCompilerId.dir
@@ -245,13 +157,391 @@ CMakeFiles/CMakeCXXCompilerId.dir/clean:
 .PHONY : CMakeFiles/CMakeCXXCompilerId.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/tree.dir
+
+# All Build rule for target.
+CMakeFiles/tree.dir/all:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/depend
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target tree"
+.PHONY : CMakeFiles/tree.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tree.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tree.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tree.dir/rule
+
+# Convenience name for target.
+tree: CMakeFiles/tree.dir/rule
+
+.PHONY : tree
+
+# clean rule for target.
+CMakeFiles/tree.dir/clean:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/clean
+.PHONY : CMakeFiles/tree.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/link-tree.dir
+
+# All Build rule for target.
+CMakeFiles/link-tree.dir/all:
+	$(MAKE) -f CMakeFiles/link-tree.dir/build.make CMakeFiles/link-tree.dir/depend
+	$(MAKE) -f CMakeFiles/link-tree.dir/build.make CMakeFiles/link-tree.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target link-tree"
+.PHONY : CMakeFiles/link-tree.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/link-tree.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/link-tree.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/link-tree.dir/rule
+
+# Convenience name for target.
+link-tree: CMakeFiles/link-tree.dir/rule
+
+.PHONY : link-tree
+
+# clean rule for target.
+CMakeFiles/link-tree.dir/clean:
+	$(MAKE) -f CMakeFiles/link-tree.dir/build.make CMakeFiles/link-tree.dir/clean
+.PHONY : CMakeFiles/link-tree.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Pre-order.dir
+
+# All Build rule for target.
+CMakeFiles/Pre-order.dir/all:
+	$(MAKE) -f CMakeFiles/Pre-order.dir/build.make CMakeFiles/Pre-order.dir/depend
+	$(MAKE) -f CMakeFiles/Pre-order.dir/build.make CMakeFiles/Pre-order.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target Pre-order"
+.PHONY : CMakeFiles/Pre-order.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Pre-order.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Pre-order.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Pre-order.dir/rule
+
+# Convenience name for target.
+Pre-order: CMakeFiles/Pre-order.dir/rule
+
+.PHONY : Pre-order
+
+# clean rule for target.
+CMakeFiles/Pre-order.dir/clean:
+	$(MAKE) -f CMakeFiles/Pre-order.dir/build.make CMakeFiles/Pre-order.dir/clean
+.PHONY : CMakeFiles/Pre-order.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/array-tree.dir
+
+# All Build rule for target.
+CMakeFiles/array-tree.dir/all:
+	$(MAKE) -f CMakeFiles/array-tree.dir/build.make CMakeFiles/array-tree.dir/depend
+	$(MAKE) -f CMakeFiles/array-tree.dir/build.make CMakeFiles/array-tree.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target array-tree"
+.PHONY : CMakeFiles/array-tree.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/array-tree.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/array-tree.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/array-tree.dir/rule
+
+# Convenience name for target.
+array-tree: CMakeFiles/array-tree.dir/rule
+
+.PHONY : array-tree
+
+# clean rule for target.
+CMakeFiles/array-tree.dir/clean:
+	$(MAKE) -f CMakeFiles/array-tree.dir/build.make CMakeFiles/array-tree.dir/clean
+.PHONY : CMakeFiles/array-tree.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Post-order.dir
+
+# All Build rule for target.
+CMakeFiles/Post-order.dir/all:
+	$(MAKE) -f CMakeFiles/Post-order.dir/build.make CMakeFiles/Post-order.dir/depend
+	$(MAKE) -f CMakeFiles/Post-order.dir/build.make CMakeFiles/Post-order.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target Post-order"
+.PHONY : CMakeFiles/Post-order.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Post-order.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Post-order.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Post-order.dir/rule
+
+# Convenience name for target.
+Post-order: CMakeFiles/Post-order.dir/rule
+
+.PHONY : Post-order
+
+# clean rule for target.
+CMakeFiles/Post-order.dir/clean:
+	$(MAKE) -f CMakeFiles/Post-order.dir/build.make CMakeFiles/Post-order.dir/clean
+.PHONY : CMakeFiles/Post-order.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Level-order.dir
+
+# All Build rule for target.
+CMakeFiles/Level-order.dir/all:
+	$(MAKE) -f CMakeFiles/Level-order.dir/build.make CMakeFiles/Level-order.dir/depend
+	$(MAKE) -f CMakeFiles/Level-order.dir/build.make CMakeFiles/Level-order.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target Level-order"
+.PHONY : CMakeFiles/Level-order.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Level-order.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Level-order.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Level-order.dir/rule
+
+# Convenience name for target.
+Level-order: CMakeFiles/Level-order.dir/rule
+
+.PHONY : Level-order
+
+# clean rule for target.
+CMakeFiles/Level-order.dir/clean:
+	$(MAKE) -f CMakeFiles/Level-order.dir/build.make CMakeFiles/Level-order.dir/clean
+.PHONY : CMakeFiles/Level-order.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/In-order.dir
+
+# All Build rule for target.
+CMakeFiles/In-order.dir/all:
+	$(MAKE) -f CMakeFiles/In-order.dir/build.make CMakeFiles/In-order.dir/depend
+	$(MAKE) -f CMakeFiles/In-order.dir/build.make CMakeFiles/In-order.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target In-order"
+.PHONY : CMakeFiles/In-order.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/In-order.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/In-order.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/In-order.dir/rule
+
+# Convenience name for target.
+In-order: CMakeFiles/In-order.dir/rule
+
+.PHONY : In-order
+
+# clean rule for target.
+CMakeFiles/In-order.dir/clean:
+	$(MAKE) -f CMakeFiles/In-order.dir/build.make CMakeFiles/In-order.dir/clean
+.PHONY : CMakeFiles/In-order.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/string-info.dir
+
+# All Build rule for target.
+CMakeFiles/string-info.dir/all:
+	$(MAKE) -f CMakeFiles/string-info.dir/build.make CMakeFiles/string-info.dir/depend
+	$(MAKE) -f CMakeFiles/string-info.dir/build.make CMakeFiles/string-info.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target string-info"
+.PHONY : CMakeFiles/string-info.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/string-info.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/string-info.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/string-info.dir/rule
+
+# Convenience name for target.
+string-info: CMakeFiles/string-info.dir/rule
+
+.PHONY : string-info
+
+# clean rule for target.
+CMakeFiles/string-info.dir/clean:
+	$(MAKE) -f CMakeFiles/string-info.dir/build.make CMakeFiles/string-info.dir/clean
+.PHONY : CMakeFiles/string-info.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/String.dir
+
+# All Build rule for target.
+CMakeFiles/String.dir/all:
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/depend
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target String"
+.PHONY : CMakeFiles/String.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/String.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/String.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/String.dir/rule
+
+# Convenience name for target.
+String: CMakeFiles/String.dir/rule
+
+.PHONY : String
+
+# clean rule for target.
+CMakeFiles/String.dir/clean:
+	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/clean
+.PHONY : CMakeFiles/String.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/graph.dir
+
+# All Build rule for target.
+CMakeFiles/graph.dir/all:
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/depend
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target graph"
+.PHONY : CMakeFiles/graph.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/graph.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/graph.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/graph.dir/rule
+
+# Convenience name for target.
+graph: CMakeFiles/graph.dir/rule
+
+.PHONY : graph
+
+# clean rule for target.
+CMakeFiles/graph.dir/clean:
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/clean
+.PHONY : CMakeFiles/graph.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/array-queue.dir
+
+# All Build rule for target.
+CMakeFiles/array-queue.dir/all:
+	$(MAKE) -f CMakeFiles/array-queue.dir/build.make CMakeFiles/array-queue.dir/depend
+	$(MAKE) -f CMakeFiles/array-queue.dir/build.make CMakeFiles/array-queue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target array-queue"
+.PHONY : CMakeFiles/array-queue.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/array-queue.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/array-queue.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/array-queue.dir/rule
+
+# Convenience name for target.
+array-queue: CMakeFiles/array-queue.dir/rule
+
+.PHONY : array-queue
+
+# clean rule for target.
+CMakeFiles/array-queue.dir/clean:
+	$(MAKE) -f CMakeFiles/array-queue.dir/build.make CMakeFiles/array-queue.dir/clean
+.PHONY : CMakeFiles/array-queue.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/KMP-pro.dir
+
+# All Build rule for target.
+CMakeFiles/KMP-pro.dir/all:
+	$(MAKE) -f CMakeFiles/KMP-pro.dir/build.make CMakeFiles/KMP-pro.dir/depend
+	$(MAKE) -f CMakeFiles/KMP-pro.dir/build.make CMakeFiles/KMP-pro.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target KMP-pro"
+.PHONY : CMakeFiles/KMP-pro.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/KMP-pro.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/KMP-pro.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/KMP-pro.dir/rule
+
+# Convenience name for target.
+KMP-pro: CMakeFiles/KMP-pro.dir/rule
+
+.PHONY : KMP-pro
+
+# clean rule for target.
+CMakeFiles/KMP-pro.dir/clean:
+	$(MAKE) -f CMakeFiles/KMP-pro.dir/build.make CMakeFiles/KMP-pro.dir/clean
+.PHONY : CMakeFiles/KMP-pro.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/structureAndClass.dir
+
+# All Build rule for target.
+CMakeFiles/structureAndClass.dir/all:
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/depend
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target structureAndClass"
+.PHONY : CMakeFiles/structureAndClass.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/structureAndClass.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/structureAndClass.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/structureAndClass.dir/rule
+
+# Convenience name for target.
+structureAndClass: CMakeFiles/structureAndClass.dir/rule
+
+.PHONY : structureAndClass
+
+# clean rule for target.
+CMakeFiles/structureAndClass.dir/clean:
+	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/clean
+.PHONY : CMakeFiles/structureAndClass.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stack.dir
+
+# All Build rule for target.
+CMakeFiles/stack.dir/all:
+	$(MAKE) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/depend
+	$(MAKE) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target stack"
+.PHONY : CMakeFiles/stack.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stack.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/stack.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/stack.dir/rule
+
+# Convenience name for target.
+stack: CMakeFiles/stack.dir/rule
+
+.PHONY : stack
+
+# clean rule for target.
+CMakeFiles/stack.dir/clean:
+	$(MAKE) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/clean
+.PHONY : CMakeFiles/stack.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/array-linear.dir
 
 # All Build rule for target.
 CMakeFiles/array-linear.dir/all:
 	$(MAKE) -f CMakeFiles/array-linear.dir/build.make CMakeFiles/array-linear.dir/depend
 	$(MAKE) -f CMakeFiles/array-linear.dir/build.make CMakeFiles/array-linear.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target array-linear"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target array-linear"
 .PHONY : CMakeFiles/array-linear.dir/all
 
 # Build rule for subdir invocation for target.
@@ -278,7 +568,7 @@ CMakeFiles/array-linear.dir/clean:
 CMakeFiles/typeAndOperation.dir/all:
 	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/depend
 	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target typeAndOperation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target typeAndOperation"
 .PHONY : CMakeFiles/typeAndOperation.dir/all
 
 # Build rule for subdir invocation for target.
@@ -305,7 +595,7 @@ CMakeFiles/typeAndOperation.dir/clean:
 CMakeFiles/link-queue.dir/all:
 	$(MAKE) -f CMakeFiles/link-queue.dir/build.make CMakeFiles/link-queue.dir/depend
 	$(MAKE) -f CMakeFiles/link-queue.dir/build.make CMakeFiles/link-queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target link-queue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target link-queue"
 .PHONY : CMakeFiles/link-queue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -332,7 +622,7 @@ CMakeFiles/link-queue.dir/clean:
 CMakeFiles/pointersAndArrays.dir/all:
 	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/depend
 	$(MAKE) -f CMakeFiles/pointersAndArrays.dir/build.make CMakeFiles/pointersAndArrays.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target pointersAndArrays"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target pointersAndArrays"
 .PHONY : CMakeFiles/pointersAndArrays.dir/all
 
 # Build rule for subdir invocation for target.
@@ -359,7 +649,7 @@ CMakeFiles/pointersAndArrays.dir/clean:
 CMakeFiles/basis.dir/all:
 	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/depend
 	$(MAKE) -f CMakeFiles/basis.dir/build.make CMakeFiles/basis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target basis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target basis"
 .PHONY : CMakeFiles/basis.dir/all
 
 # Build rule for subdir invocation for target.
@@ -386,7 +676,7 @@ CMakeFiles/basis.dir/clean:
 CMakeFiles/functionAndPrograms.dir/all:
 	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/depend
 	$(MAKE) -f CMakeFiles/functionAndPrograms.dir/build.make CMakeFiles/functionAndPrograms.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target functionAndPrograms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target functionAndPrograms"
 .PHONY : CMakeFiles/functionAndPrograms.dir/all
 
 # Build rule for subdir invocation for target.
@@ -413,7 +703,7 @@ CMakeFiles/functionAndPrograms.dir/clean:
 CMakeFiles/controlAndFlow.dir/all:
 	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/depend
 	$(MAKE) -f CMakeFiles/controlAndFlow.dir/build.make CMakeFiles/controlAndFlow.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target controlAndFlow"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target controlAndFlow"
 .PHONY : CMakeFiles/controlAndFlow.dir/all
 
 # Build rule for subdir invocation for target.
@@ -440,7 +730,7 @@ CMakeFiles/controlAndFlow.dir/clean:
 CMakeFiles/array-stack.dir/all:
 	$(MAKE) -f CMakeFiles/array-stack.dir/build.make CMakeFiles/array-stack.dir/depend
 	$(MAKE) -f CMakeFiles/array-stack.dir/build.make CMakeFiles/array-stack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target array-stack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target array-stack"
 .PHONY : CMakeFiles/array-stack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -461,13 +751,40 @@ CMakeFiles/array-stack.dir/clean:
 .PHONY : CMakeFiles/array-stack.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/KMP.dir
+
+# All Build rule for target.
+CMakeFiles/KMP.dir/all:
+	$(MAKE) -f CMakeFiles/KMP.dir/build.make CMakeFiles/KMP.dir/depend
+	$(MAKE) -f CMakeFiles/KMP.dir/build.make CMakeFiles/KMP.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target KMP"
+.PHONY : CMakeFiles/KMP.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/KMP.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/KMP.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/KMP.dir/rule
+
+# Convenience name for target.
+KMP: CMakeFiles/KMP.dir/rule
+
+.PHONY : KMP
+
+# clean rule for target.
+CMakeFiles/KMP.dir/clean:
+	$(MAKE) -f CMakeFiles/KMP.dir/build.make CMakeFiles/KMP.dir/clean
+.PHONY : CMakeFiles/KMP.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/array.dir
 
 # All Build rule for target.
 CMakeFiles/array.dir/all:
 	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/depend
 	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target array"
 .PHONY : CMakeFiles/array.dir/all
 
 # Build rule for subdir invocation for target.
@@ -494,7 +811,7 @@ CMakeFiles/array.dir/clean:
 CMakeFiles/linear-list.dir/all:
 	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/depend
 	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target linear-list"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target linear-list"
 .PHONY : CMakeFiles/linear-list.dir/all
 
 # Build rule for subdir invocation for target.
@@ -521,7 +838,7 @@ CMakeFiles/linear-list.dir/clean:
 CMakeFiles/queue.dir/all:
 	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/depend
 	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target queue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target queue"
 .PHONY : CMakeFiles/queue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -548,7 +865,7 @@ CMakeFiles/queue.dir/clean:
 CMakeFiles/sorting.dir/all:
 	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/depend
 	$(MAKE) -f CMakeFiles/sorting.dir/build.make CMakeFiles/sorting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target sorting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target sorting"
 .PHONY : CMakeFiles/sorting.dir/all
 
 # Build rule for subdir invocation for target.
@@ -575,7 +892,7 @@ CMakeFiles/sorting.dir/clean:
 CMakeFiles/search.dir/all:
 	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/depend
 	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target search"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target search"
 .PHONY : CMakeFiles/search.dir/all
 
 # Build rule for subdir invocation for target.
@@ -596,67 +913,13 @@ CMakeFiles/search.dir/clean:
 .PHONY : CMakeFiles/search.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/String.dir
-
-# All Build rule for target.
-CMakeFiles/String.dir/all:
-	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/depend
-	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target String"
-.PHONY : CMakeFiles/String.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/String.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/String.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/String.dir/rule
-
-# Convenience name for target.
-String: CMakeFiles/String.dir/rule
-
-.PHONY : String
-
-# clean rule for target.
-CMakeFiles/String.dir/clean:
-	$(MAKE) -f CMakeFiles/String.dir/build.make CMakeFiles/String.dir/clean
-.PHONY : CMakeFiles/String.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/tree.dir
-
-# All Build rule for target.
-CMakeFiles/tree.dir/all:
-	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/depend
-	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target tree"
-.PHONY : CMakeFiles/tree.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tree.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tree.dir/rule
-
-# Convenience name for target.
-tree: CMakeFiles/tree.dir/rule
-
-.PHONY : tree
-
-# clean rule for target.
-CMakeFiles/tree.dir/clean:
-	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/clean
-.PHONY : CMakeFiles/tree.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/file.dir
 
 # All Build rule for target.
 CMakeFiles/file.dir/all:
 	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/depend
 	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target file"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target file"
 .PHONY : CMakeFiles/file.dir/all
 
 # Build rule for subdir invocation for target.
@@ -683,7 +946,7 @@ CMakeFiles/file.dir/clean:
 CMakeFiles/link-stack.dir/all:
 	$(MAKE) -f CMakeFiles/link-stack.dir/build.make CMakeFiles/link-stack.dir/depend
 	$(MAKE) -f CMakeFiles/link-stack.dir/build.make CMakeFiles/link-stack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target link-stack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target link-stack"
 .PHONY : CMakeFiles/link-stack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -702,6 +965,33 @@ link-stack: CMakeFiles/link-stack.dir/rule
 CMakeFiles/link-stack.dir/clean:
 	$(MAKE) -f CMakeFiles/link-stack.dir/build.make CMakeFiles/link-stack.dir/clean
 .PHONY : CMakeFiles/link-stack.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/KMP-next.dir
+
+# All Build rule for target.
+CMakeFiles/KMP-next.dir/all:
+	$(MAKE) -f CMakeFiles/KMP-next.dir/build.make CMakeFiles/KMP-next.dir/depend
+	$(MAKE) -f CMakeFiles/KMP-next.dir/build.make CMakeFiles/KMP-next.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target KMP-next"
+.PHONY : CMakeFiles/KMP-next.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/KMP-next.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/KMP-next.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/KMP-next.dir/rule
+
+# Convenience name for target.
+KMP-next: CMakeFiles/KMP-next.dir/rule
+
+.PHONY : KMP-next
+
+# clean rule for target.
+CMakeFiles/KMP-next.dir/clean:
+	$(MAKE) -f CMakeFiles/KMP-next.dir/build.make CMakeFiles/KMP-next.dir/clean
+.PHONY : CMakeFiles/KMP-next.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -18,7 +18,17 @@
     -- src/array-stack.cpp will be compiled to bin/array-stack
     -- src/link-stack.cpp will be compiled to bin/link-stack
     -- src/stack.cpp will be compiled to bin/stack
+    -- src/KMP-next.cpp will be compiled to bin/KMP-next
+    -- src/KMP-pro.cpp will be compiled to bin/KMP-pro
+    -- src/KMP.cpp will be compiled to bin/KMP
     -- src/String.cpp will be compiled to bin/String
+    -- src/string-info.cpp will be compiled to bin/string-info
+    -- src/In-order.cpp will be compiled to bin/In-order
+    -- src/Level-order.cpp will be compiled to bin/Level-order
+    -- src/Post-order.cpp will be compiled to bin/Post-order
+    -- src/Pre-order.cpp will be compiled to bin/Pre-order
+    -- src/array-tree.cpp will be compiled to bin/array-tree
+    -- src/link-tree.cpp will be compiled to bin/link-tree
     -- src/tree.cpp will be compiled to bin/tree
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
 -- Configuring done
