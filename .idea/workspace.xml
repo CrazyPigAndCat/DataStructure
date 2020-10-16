@@ -14,8 +14,8 @@
       <config projectName="DataStructure" targetName="String" />
       <config projectName="DataStructure" targetName="KMP-pro" />
       <config projectName="DataStructure" targetName="structureAndClass" />
-      <config projectName="DataStructure" targetName="stack" />
       <config projectName="DataStructure" targetName="string-info" />
+      <config projectName="DataStructure" targetName="stack" />
       <config projectName="DataStructure" targetName="linear-list" />
       <config projectName="DataStructure" targetName="link-queue" />
       <config projectName="DataStructure" targetName="file" />
@@ -25,8 +25,13 @@
       <config projectName="DataStructure" targetName="link-tree" />
       <config projectName="DataStructure" targetName="queue" />
       <config projectName="DataStructure" targetName="controlAndFlow" />
+      <config projectName="DataStructure" targetName="1" />
+      <config projectName="DataStructure" targetName="2" />
+      <config projectName="DataStructure" targetName="3" />
+      <config projectName="DataStructure" targetName="5" />
       <config projectName="DataStructure" targetName="functionAndPrograms" />
       <config projectName="DataStructure" targetName="Post-order" />
+      <config projectName="DataStructure" targetName="8" />
       <config projectName="DataStructure" targetName="link-stack" />
       <config projectName="DataStructure" targetName="array-tree" />
       <config projectName="DataStructure" targetName="array" />
@@ -51,74 +56,29 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a307271-3b33-4382-ad42-6610ef80aade" name="Default Changelist" comment="StackAndQueue">
-      <change afterPath="$PROJECT_DIR$/String/KMP-next.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/KMP-pro.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/KMP.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/string-info.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/In-order.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Level-order.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Post-order.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/Pre-order.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/array-tree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/link-tree.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/tree.md" afterDir="false" />
+    <list default="true" id="4a307271-3b33-4382-ad42-6610ef80aade" name="Default Changelist" comment="StringAndTree">
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linear-list/Question/2.2/1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linear-list/Question/2.2/2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linear-list/Question/2.2/3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linear-list/Question/2.3/5.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linear-list/Question/2.3/8.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/String.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/String.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/String.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/String.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/String.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/String.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/String.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/String.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/String.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/String.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/array.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/array.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/array.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/array.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/array.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/array.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/array.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/array.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/array.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/array.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linear-list.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linear-list.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linear-list.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linear-list.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linear-list.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linear-list.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linear-list.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linear-list.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linear-list.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linear-list.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queue.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queue.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queue.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queue.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queue.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queue.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queue.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queue.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queue.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queue.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sorting.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sorting.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sorting.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sorting.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sorting.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sorting.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sorting.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sorting.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sorting.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sorting.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tree.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tree.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tree.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tree.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tree.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tree.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tree.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tree.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tree.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tree.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/DataStructure.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DataStructure.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
@@ -148,9 +108,6 @@
       </set>
     </option>
   </component>
-  <component name="OCResolveContextSettings">
-    <option name="configuration" value="0-Debug-Pre-order" />
-  </component>
   <component name="ProjectId" id="1haLSXefcb7hOxm1pBANfCxRVJa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -174,9 +131,34 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="CMake Application.array-linear">
+  <component name="RunManager" selected="CMake Application.3">
+    <configuration name="1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="5" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="5">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="8" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="8">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CMakeCXXCompilerId" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="CMakeCXXCompilerId" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="CMakeCXXCompilerId">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -339,38 +321,46 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.CMakeCXXCompilerId" />
-      <item itemvalue="CMake Application.controlAndFlow" />
+      <item itemvalue="CMake Application.In-order" />
+      <item itemvalue="CMake Application.KMP-next" />
+      <item itemvalue="CMake Application.KMP-pro" />
+      <item itemvalue="CMake Application.KMP" />
+      <item itemvalue="CMake Application.Level-order" />
+      <item itemvalue="CMake Application.Post-order" />
+      <item itemvalue="CMake Application.Pre-order" />
       <item itemvalue="CMake Application.String" />
-      <item itemvalue="CMake Application.string-info" />
-      <item itemvalue="CMake Application.structureAndClass" />
-      <item itemvalue="CMake Application.array" />
       <item itemvalue="CMake Application.array-linear" />
       <item itemvalue="CMake Application.array-queue" />
       <item itemvalue="CMake Application.array-stack" />
       <item itemvalue="CMake Application.array-tree" />
+      <item itemvalue="CMake Application.1" />
+      <item itemvalue="CMake Application.2" />
+      <item itemvalue="CMake Application.3" />
+      <item itemvalue="CMake Application.5" />
+      <item itemvalue="CMake Application.8" />
+      <item itemvalue="CMake Application.array" />
       <item itemvalue="CMake Application.basis" />
+      <item itemvalue="CMake Application.controlAndFlow" />
       <item itemvalue="CMake Application.file" />
       <item itemvalue="CMake Application.functionAndPrograms" />
       <item itemvalue="CMake Application.graph" />
-      <item itemvalue="CMake Application.In-order" />
-      <item itemvalue="CMake Application.KMP" />
-      <item itemvalue="CMake Application.KMP-next" />
-      <item itemvalue="CMake Application.KMP-pro" />
-      <item itemvalue="CMake Application.Level-order" />
       <item itemvalue="CMake Application.linear-list" />
       <item itemvalue="CMake Application.link-queue" />
       <item itemvalue="CMake Application.link-stack" />
       <item itemvalue="CMake Application.link-tree" />
       <item itemvalue="CMake Application.pointersAndArrays" />
-      <item itemvalue="CMake Application.Post-order" />
-      <item itemvalue="CMake Application.Pre-order" />
       <item itemvalue="CMake Application.queue" />
       <item itemvalue="CMake Application.search" />
       <item itemvalue="CMake Application.sorting" />
       <item itemvalue="CMake Application.stack" />
+      <item itemvalue="CMake Application.string-info" />
+      <item itemvalue="CMake Application.structureAndClass" />
       <item itemvalue="CMake Application.tree" />
       <item itemvalue="CMake Application.typeAndOperation" />
     </list>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -392,7 +382,18 @@
       <workItem from="1600316959828" duration="1290000" />
       <workItem from="1600685773706" duration="7507000" />
       <workItem from="1600941856115" duration="6738000" />
-      <workItem from="1601522405910" duration="9978000" />
+      <workItem from="1601522405910" duration="10186000" />
+      <workItem from="1601810891211" duration="48000" />
+      <workItem from="1602232479697" duration="1005000" />
+      <workItem from="1602245275031" duration="56000" />
+      <workItem from="1602575380137" duration="959000" />
+      <workItem from="1602576464094" duration="40000" />
+      <workItem from="1602684812699" duration="595000" />
+      <workItem from="1602685438120" duration="1431000" />
+      <workItem from="1602765876953" duration="826000" />
+      <workItem from="1602836549094" duration="809000" />
+      <workItem from="1602843622147" duration="3179000" />
+      <workItem from="1602846819081" duration="2076000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <created>1600249700181</created>
@@ -471,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600941945154</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="StringAndTree">
+      <created>1601635006918</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601635006918</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +536,8 @@
     <MESSAGE value="提交workspace.xml" />
     <MESSAGE value="c-basis" />
     <MESSAGE value="StackAndQueue" />
-    <option name="LAST_COMMIT_MESSAGE" value="StackAndQueue" />
+    <MESSAGE value="StringAndTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringAndTree" />
   </component>
   <component name="WindowStateProjectService">
     <state x="859" y="294" width="524" height="514" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600244720108">
@@ -539,30 +548,34 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="479" y="27" width="854" height="1049" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1600249885982" />
-    <state width="1501" height="249" key="GridCell.Tab.0.bottom" timestamp="1601208921495">
+    <state width="1866" height="261" key="GridCell.Tab.0.bottom" timestamp="1602848803821">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1501" height="249" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1601208921495" />
-    <state width="1501" height="249" key="GridCell.Tab.0.center" timestamp="1601208921495">
+    <state width="1866" height="261" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1602848803821" />
+    <state width="1866" height="261" key="GridCell.Tab.0.center" timestamp="1602848803820">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1501" height="249" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1601208921495" />
-    <state width="1501" height="249" key="GridCell.Tab.0.left" timestamp="1601208921495">
+    <state width="1866" height="261" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1602848803820" />
+    <state width="1866" height="261" key="GridCell.Tab.0.left" timestamp="1602848803820">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1501" height="249" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1601208921495" />
-    <state width="1501" height="249" key="GridCell.Tab.0.right" timestamp="1601208921495">
+    <state width="1866" height="261" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1602848803820" />
+    <state width="1866" height="261" key="GridCell.Tab.0.right" timestamp="1602848803821">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1501" height="249" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1601208921495" />
-    <state x="393" y="165" width="1037" height="737" key="SettingsEditor" timestamp="1600258997874">
+    <state width="1866" height="261" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1602848803821" />
+    <state x="393" y="165" width="1372" height="737" key="SettingsEditor" timestamp="1602685524596">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="393" y="165" width="1037" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1600258997874" />
-    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1600941969600">
+    <state x="393" y="165" width="1372" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1602685524596" />
+    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1601635020961">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1600941969600" />
+    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1601635020961" />
+    <state x="445" y="242" width="1020" height="629" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602836859520">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="445" y="242" width="1020" height="629" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1602836859520" />
     <state x="738" y="486" width="461" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600247072604">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -571,6 +584,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="699" y="341" width="741" height="470" key="git4idea.merge.GitPullDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1601522443711" />
+    <state x="823" y="401" width="607" height="294" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1602685522836">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="823" y="401" width="607" height="294" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602685522836" />
     <state x="673" y="331" width="564" height="451" key="refactoring.ChangeSignatureDialog" timestamp="1601634110431">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

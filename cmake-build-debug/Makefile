@@ -241,6 +241,84 @@ String/fast:
 .PHONY : String/fast
 
 #=============================================================================
+# Target rules for targets named KMP
+
+# Build rule for target.
+KMP: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 KMP
+.PHONY : KMP
+
+# fast build rule for target.
+KMP/fast:
+	$(MAKE) -f CMakeFiles/KMP.dir/build.make CMakeFiles/KMP.dir/build
+.PHONY : KMP/fast
+
+#=============================================================================
+# Target rules for targets named KMP-pro
+
+# Build rule for target.
+KMP-pro: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 KMP-pro
+.PHONY : KMP-pro
+
+# fast build rule for target.
+KMP-pro/fast:
+	$(MAKE) -f CMakeFiles/KMP-pro.dir/build.make CMakeFiles/KMP-pro.dir/build
+.PHONY : KMP-pro/fast
+
+#=============================================================================
+# Target rules for targets named KMP-next
+
+# Build rule for target.
+KMP-next: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 KMP-next
+.PHONY : KMP-next
+
+# fast build rule for target.
+KMP-next/fast:
+	$(MAKE) -f CMakeFiles/KMP-next.dir/build.make CMakeFiles/KMP-next.dir/build
+.PHONY : KMP-next/fast
+
+#=============================================================================
+# Target rules for targets named stack
+
+# Build rule for target.
+stack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack
+.PHONY : stack
+
+# fast build rule for target.
+stack/fast:
+	$(MAKE) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/build
+.PHONY : stack/fast
+
+#=============================================================================
+# Target rules for targets named link-stack
+
+# Build rule for target.
+link-stack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 link-stack
+.PHONY : link-stack
+
+# fast build rule for target.
+link-stack/fast:
+	$(MAKE) -f CMakeFiles/link-stack.dir/build.make CMakeFiles/link-stack.dir/build
+.PHONY : link-stack/fast
+
+#=============================================================================
+# Target rules for targets named file
+
+# Build rule for target.
+file: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 file
+.PHONY : file
+
+# fast build rule for target.
+file/fast:
+	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/build
+.PHONY : file/fast
+
+#=============================================================================
 # Target rules for targets named graph
 
 # Build rule for target.
@@ -267,19 +345,6 @@ array-queue/fast:
 .PHONY : array-queue/fast
 
 #=============================================================================
-# Target rules for targets named KMP-pro
-
-# Build rule for target.
-KMP-pro: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 KMP-pro
-.PHONY : KMP-pro
-
-# fast build rule for target.
-KMP-pro/fast:
-	$(MAKE) -f CMakeFiles/KMP-pro.dir/build.make CMakeFiles/KMP-pro.dir/build
-.PHONY : KMP-pro/fast
-
-#=============================================================================
 # Target rules for targets named structureAndClass
 
 # Build rule for target.
@@ -291,58 +356,6 @@ structureAndClass: cmake_check_build_system
 structureAndClass/fast:
 	$(MAKE) -f CMakeFiles/structureAndClass.dir/build.make CMakeFiles/structureAndClass.dir/build
 .PHONY : structureAndClass/fast
-
-#=============================================================================
-# Target rules for targets named stack
-
-# Build rule for target.
-stack: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stack
-.PHONY : stack
-
-# fast build rule for target.
-stack/fast:
-	$(MAKE) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/build
-.PHONY : stack/fast
-
-#=============================================================================
-# Target rules for targets named array-linear
-
-# Build rule for target.
-array-linear: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 array-linear
-.PHONY : array-linear
-
-# fast build rule for target.
-array-linear/fast:
-	$(MAKE) -f CMakeFiles/array-linear.dir/build.make CMakeFiles/array-linear.dir/build
-.PHONY : array-linear/fast
-
-#=============================================================================
-# Target rules for targets named typeAndOperation
-
-# Build rule for target.
-typeAndOperation: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 typeAndOperation
-.PHONY : typeAndOperation
-
-# fast build rule for target.
-typeAndOperation/fast:
-	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/build
-.PHONY : typeAndOperation/fast
-
-#=============================================================================
-# Target rules for targets named link-queue
-
-# Build rule for target.
-link-queue: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 link-queue
-.PHONY : link-queue
-
-# fast build rule for target.
-link-queue/fast:
-	$(MAKE) -f CMakeFiles/link-queue.dir/build.make CMakeFiles/link-queue.dir/build
-.PHONY : link-queue/fast
 
 #=============================================================================
 # Target rules for targets named pointersAndArrays
@@ -384,6 +397,19 @@ functionAndPrograms/fast:
 .PHONY : functionAndPrograms/fast
 
 #=============================================================================
+# Target rules for targets named 1
+
+# Build rule for target.
+1 : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1
+.PHONY : 1
+
+# fast build rule for target.
+1/fast:
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
+.PHONY : 1/fast
+
+#=============================================================================
 # Target rules for targets named controlAndFlow
 
 # Build rule for target.
@@ -408,58 +434,6 @@ array-stack: cmake_check_build_system
 array-stack/fast:
 	$(MAKE) -f CMakeFiles/array-stack.dir/build.make CMakeFiles/array-stack.dir/build
 .PHONY : array-stack/fast
-
-#=============================================================================
-# Target rules for targets named KMP
-
-# Build rule for target.
-KMP: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 KMP
-.PHONY : KMP
-
-# fast build rule for target.
-KMP/fast:
-	$(MAKE) -f CMakeFiles/KMP.dir/build.make CMakeFiles/KMP.dir/build
-.PHONY : KMP/fast
-
-#=============================================================================
-# Target rules for targets named array
-
-# Build rule for target.
-array: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 array
-.PHONY : array
-
-# fast build rule for target.
-array/fast:
-	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/build
-.PHONY : array/fast
-
-#=============================================================================
-# Target rules for targets named linear-list
-
-# Build rule for target.
-linear-list: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 linear-list
-.PHONY : linear-list
-
-# fast build rule for target.
-linear-list/fast:
-	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/build
-.PHONY : linear-list/fast
-
-#=============================================================================
-# Target rules for targets named queue
-
-# Build rule for target.
-queue: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 queue
-.PHONY : queue
-
-# fast build rule for target.
-queue/fast:
-	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/build
-.PHONY : queue/fast
 
 #=============================================================================
 # Target rules for targets named sorting
@@ -488,43 +462,134 @@ search/fast:
 .PHONY : search/fast
 
 #=============================================================================
-# Target rules for targets named file
+# Target rules for targets named 3
 
 # Build rule for target.
-file: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 file
-.PHONY : file
+3 : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 3
+.PHONY : 3
 
 # fast build rule for target.
-file/fast:
-	$(MAKE) -f CMakeFiles/file.dir/build.make CMakeFiles/file.dir/build
-.PHONY : file/fast
+3/fast:
+	$(MAKE) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/build
+.PHONY : 3/fast
 
 #=============================================================================
-# Target rules for targets named link-stack
+# Target rules for targets named 5
 
 # Build rule for target.
-link-stack: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 link-stack
-.PHONY : link-stack
+5 : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 5
+.PHONY : 5
 
 # fast build rule for target.
-link-stack/fast:
-	$(MAKE) -f CMakeFiles/link-stack.dir/build.make CMakeFiles/link-stack.dir/build
-.PHONY : link-stack/fast
+5/fast:
+	$(MAKE) -f CMakeFiles/5.dir/build.make CMakeFiles/5.dir/build
+.PHONY : 5/fast
 
 #=============================================================================
-# Target rules for targets named KMP-next
+# Target rules for targets named 8
 
 # Build rule for target.
-KMP-next: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 KMP-next
-.PHONY : KMP-next
+8 : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 8
+.PHONY : 8
 
 # fast build rule for target.
-KMP-next/fast:
-	$(MAKE) -f CMakeFiles/KMP-next.dir/build.make CMakeFiles/KMP-next.dir/build
-.PHONY : KMP-next/fast
+8/fast:
+	$(MAKE) -f CMakeFiles/8.dir/build.make CMakeFiles/8.dir/build
+.PHONY : 8/fast
+
+#=============================================================================
+# Target rules for targets named array-linear
+
+# Build rule for target.
+array-linear: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 array-linear
+.PHONY : array-linear
+
+# fast build rule for target.
+array-linear/fast:
+	$(MAKE) -f CMakeFiles/array-linear.dir/build.make CMakeFiles/array-linear.dir/build
+.PHONY : array-linear/fast
+
+#=============================================================================
+# Target rules for targets named typeAndOperation
+
+# Build rule for target.
+typeAndOperation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 typeAndOperation
+.PHONY : typeAndOperation
+
+# fast build rule for target.
+typeAndOperation/fast:
+	$(MAKE) -f CMakeFiles/typeAndOperation.dir/build.make CMakeFiles/typeAndOperation.dir/build
+.PHONY : typeAndOperation/fast
+
+#=============================================================================
+# Target rules for targets named link-queue
+
+# Build rule for target.
+link-queue: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 link-queue
+.PHONY : link-queue
+
+# fast build rule for target.
+link-queue/fast:
+	$(MAKE) -f CMakeFiles/link-queue.dir/build.make CMakeFiles/link-queue.dir/build
+.PHONY : link-queue/fast
+
+#=============================================================================
+# Target rules for targets named array
+
+# Build rule for target.
+array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 array
+.PHONY : array
+
+# fast build rule for target.
+array/fast:
+	$(MAKE) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/build
+.PHONY : array/fast
+
+#=============================================================================
+# Target rules for targets named 2
+
+# Build rule for target.
+2 : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 2
+.PHONY : 2
+
+# fast build rule for target.
+2/fast:
+	$(MAKE) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/build
+.PHONY : 2/fast
+
+#=============================================================================
+# Target rules for targets named linear-list
+
+# Build rule for target.
+linear-list: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 linear-list
+.PHONY : linear-list
+
+# fast build rule for target.
+linear-list/fast:
+	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/build
+.PHONY : linear-list/fast
+
+#=============================================================================
+# Target rules for targets named queue
+
+# Build rule for target.
+queue: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 queue
+.PHONY : queue
+
+# fast build rule for target.
+queue/fast:
+	$(MAKE) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/build
+.PHONY : queue/fast
 
 Array/array.o: Array/array.cpp.o
 
@@ -795,6 +860,141 @@ Graph/graph.s: Graph/graph.cpp.s
 Graph/graph.cpp.s:
 	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/Graph/graph.cpp.s
 .PHONY : Graph/graph.cpp.s
+
+Linear-list/Question/2.2/1.o: Linear-list/Question/2.2/1.cpp.o
+
+.PHONY : Linear-list/Question/2.2/1.o
+
+# target to build an object file
+Linear-list/Question/2.2/1.cpp.o:
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/Linear-list/Question/2.2/1.cpp.o
+.PHONY : Linear-list/Question/2.2/1.cpp.o
+
+Linear-list/Question/2.2/1.i: Linear-list/Question/2.2/1.cpp.i
+
+.PHONY : Linear-list/Question/2.2/1.i
+
+# target to preprocess a source file
+Linear-list/Question/2.2/1.cpp.i:
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/Linear-list/Question/2.2/1.cpp.i
+.PHONY : Linear-list/Question/2.2/1.cpp.i
+
+Linear-list/Question/2.2/1.s: Linear-list/Question/2.2/1.cpp.s
+
+.PHONY : Linear-list/Question/2.2/1.s
+
+# target to generate assembly for a file
+Linear-list/Question/2.2/1.cpp.s:
+	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/Linear-list/Question/2.2/1.cpp.s
+.PHONY : Linear-list/Question/2.2/1.cpp.s
+
+Linear-list/Question/2.2/2.o: Linear-list/Question/2.2/2.cpp.o
+
+.PHONY : Linear-list/Question/2.2/2.o
+
+# target to build an object file
+Linear-list/Question/2.2/2.cpp.o:
+	$(MAKE) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/Linear-list/Question/2.2/2.cpp.o
+.PHONY : Linear-list/Question/2.2/2.cpp.o
+
+Linear-list/Question/2.2/2.i: Linear-list/Question/2.2/2.cpp.i
+
+.PHONY : Linear-list/Question/2.2/2.i
+
+# target to preprocess a source file
+Linear-list/Question/2.2/2.cpp.i:
+	$(MAKE) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/Linear-list/Question/2.2/2.cpp.i
+.PHONY : Linear-list/Question/2.2/2.cpp.i
+
+Linear-list/Question/2.2/2.s: Linear-list/Question/2.2/2.cpp.s
+
+.PHONY : Linear-list/Question/2.2/2.s
+
+# target to generate assembly for a file
+Linear-list/Question/2.2/2.cpp.s:
+	$(MAKE) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/Linear-list/Question/2.2/2.cpp.s
+.PHONY : Linear-list/Question/2.2/2.cpp.s
+
+Linear-list/Question/2.2/3.o: Linear-list/Question/2.2/3.cpp.o
+
+.PHONY : Linear-list/Question/2.2/3.o
+
+# target to build an object file
+Linear-list/Question/2.2/3.cpp.o:
+	$(MAKE) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/Linear-list/Question/2.2/3.cpp.o
+.PHONY : Linear-list/Question/2.2/3.cpp.o
+
+Linear-list/Question/2.2/3.i: Linear-list/Question/2.2/3.cpp.i
+
+.PHONY : Linear-list/Question/2.2/3.i
+
+# target to preprocess a source file
+Linear-list/Question/2.2/3.cpp.i:
+	$(MAKE) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/Linear-list/Question/2.2/3.cpp.i
+.PHONY : Linear-list/Question/2.2/3.cpp.i
+
+Linear-list/Question/2.2/3.s: Linear-list/Question/2.2/3.cpp.s
+
+.PHONY : Linear-list/Question/2.2/3.s
+
+# target to generate assembly for a file
+Linear-list/Question/2.2/3.cpp.s:
+	$(MAKE) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/Linear-list/Question/2.2/3.cpp.s
+.PHONY : Linear-list/Question/2.2/3.cpp.s
+
+Linear-list/Question/2.3/5.o: Linear-list/Question/2.3/5.cpp.o
+
+.PHONY : Linear-list/Question/2.3/5.o
+
+# target to build an object file
+Linear-list/Question/2.3/5.cpp.o:
+	$(MAKE) -f CMakeFiles/5.dir/build.make CMakeFiles/5.dir/Linear-list/Question/2.3/5.cpp.o
+.PHONY : Linear-list/Question/2.3/5.cpp.o
+
+Linear-list/Question/2.3/5.i: Linear-list/Question/2.3/5.cpp.i
+
+.PHONY : Linear-list/Question/2.3/5.i
+
+# target to preprocess a source file
+Linear-list/Question/2.3/5.cpp.i:
+	$(MAKE) -f CMakeFiles/5.dir/build.make CMakeFiles/5.dir/Linear-list/Question/2.3/5.cpp.i
+.PHONY : Linear-list/Question/2.3/5.cpp.i
+
+Linear-list/Question/2.3/5.s: Linear-list/Question/2.3/5.cpp.s
+
+.PHONY : Linear-list/Question/2.3/5.s
+
+# target to generate assembly for a file
+Linear-list/Question/2.3/5.cpp.s:
+	$(MAKE) -f CMakeFiles/5.dir/build.make CMakeFiles/5.dir/Linear-list/Question/2.3/5.cpp.s
+.PHONY : Linear-list/Question/2.3/5.cpp.s
+
+Linear-list/Question/2.3/8.o: Linear-list/Question/2.3/8.cpp.o
+
+.PHONY : Linear-list/Question/2.3/8.o
+
+# target to build an object file
+Linear-list/Question/2.3/8.cpp.o:
+	$(MAKE) -f CMakeFiles/8.dir/build.make CMakeFiles/8.dir/Linear-list/Question/2.3/8.cpp.o
+.PHONY : Linear-list/Question/2.3/8.cpp.o
+
+Linear-list/Question/2.3/8.i: Linear-list/Question/2.3/8.cpp.i
+
+.PHONY : Linear-list/Question/2.3/8.i
+
+# target to preprocess a source file
+Linear-list/Question/2.3/8.cpp.i:
+	$(MAKE) -f CMakeFiles/8.dir/build.make CMakeFiles/8.dir/Linear-list/Question/2.3/8.cpp.i
+.PHONY : Linear-list/Question/2.3/8.cpp.i
+
+Linear-list/Question/2.3/8.s: Linear-list/Question/2.3/8.cpp.s
+
+.PHONY : Linear-list/Question/2.3/8.s
+
+# target to generate assembly for a file
+Linear-list/Question/2.3/8.cpp.s:
+	$(MAKE) -f CMakeFiles/8.dir/build.make CMakeFiles/8.dir/Linear-list/Question/2.3/8.cpp.s
+.PHONY : Linear-list/Question/2.3/8.cpp.s
 
 Linear-list/array-linear.o: Linear-list/array-linear.cpp.o
 
@@ -1407,29 +1607,34 @@ help:
 	@echo "... In-order"
 	@echo "... string-info"
 	@echo "... String"
+	@echo "... KMP"
+	@echo "... KMP-pro"
+	@echo "... KMP-next"
+	@echo "... stack"
+	@echo "... link-stack"
+	@echo "... file"
 	@echo "... graph"
 	@echo "... array-queue"
-	@echo "... KMP-pro"
 	@echo "... structureAndClass"
-	@echo "... stack"
+	@echo "... pointersAndArrays"
+	@echo "... basis"
+	@echo "... functionAndPrograms"
+	@echo "... 1"
+	@echo "... controlAndFlow"
+	@echo "... array-stack"
+	@echo "... sorting"
+	@echo "... search"
+	@echo "... 3"
+	@echo "... 5"
+	@echo "... 8"
 	@echo "... array-linear"
 	@echo "... rebuild_cache"
 	@echo "... typeAndOperation"
 	@echo "... link-queue"
-	@echo "... pointersAndArrays"
-	@echo "... basis"
-	@echo "... functionAndPrograms"
-	@echo "... controlAndFlow"
-	@echo "... array-stack"
-	@echo "... KMP"
 	@echo "... array"
+	@echo "... 2"
 	@echo "... linear-list"
 	@echo "... queue"
-	@echo "... sorting"
-	@echo "... search"
-	@echo "... file"
-	@echo "... link-stack"
-	@echo "... KMP-next"
 	@echo "... Array/array.o"
 	@echo "... Array/array.i"
 	@echo "... Array/array.s"
@@ -1460,6 +1665,21 @@ help:
 	@echo "... Graph/graph.o"
 	@echo "... Graph/graph.i"
 	@echo "... Graph/graph.s"
+	@echo "... Linear-list/Question/2.2/1.o"
+	@echo "... Linear-list/Question/2.2/1.i"
+	@echo "... Linear-list/Question/2.2/1.s"
+	@echo "... Linear-list/Question/2.2/2.o"
+	@echo "... Linear-list/Question/2.2/2.i"
+	@echo "... Linear-list/Question/2.2/2.s"
+	@echo "... Linear-list/Question/2.2/3.o"
+	@echo "... Linear-list/Question/2.2/3.i"
+	@echo "... Linear-list/Question/2.2/3.s"
+	@echo "... Linear-list/Question/2.3/5.o"
+	@echo "... Linear-list/Question/2.3/5.i"
+	@echo "... Linear-list/Question/2.3/5.s"
+	@echo "... Linear-list/Question/2.3/8.o"
+	@echo "... Linear-list/Question/2.3/8.i"
+	@echo "... Linear-list/Question/2.3/8.s"
 	@echo "... Linear-list/array-linear.o"
 	@echo "... Linear-list/array-linear.i"
 	@echo "... Linear-list/array-linear.s"

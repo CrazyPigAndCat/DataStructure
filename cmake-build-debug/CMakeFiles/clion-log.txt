@@ -8,6 +8,11 @@
     -- src/typeAndOperation.cpp will be compiled to bin/typeAndOperation
     -- src/file.cpp will be compiled to bin/file
     -- src/graph.cpp will be compiled to bin/graph
+    -- src/1.cpp will be compiled to bin/1
+    -- src/2.cpp will be compiled to bin/2
+    -- src/3.cpp will be compiled to bin/3
+    -- src/5.cpp will be compiled to bin/5
+    -- src/8.cpp will be compiled to bin/8
     -- src/array-linear.cpp will be compiled to bin/array-linear
     -- src/linear-list.cpp will be compiled to bin/linear-list
     -- src/array-queue.cpp will be compiled to bin/array-queue
