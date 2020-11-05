@@ -11,43 +11,45 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="DataStructure" targetName="String" />
-      <config projectName="DataStructure" targetName="KMP-pro" />
-      <config projectName="DataStructure" targetName="structureAndClass" />
-      <config projectName="DataStructure" targetName="string-info" />
-      <config projectName="DataStructure" targetName="stack" />
       <config projectName="DataStructure" targetName="linear-list" />
-      <config projectName="DataStructure" targetName="link-queue" />
-      <config projectName="DataStructure" targetName="file" />
-      <config projectName="DataStructure" targetName="In-order" />
-      <config projectName="DataStructure" targetName="KMP" />
-      <config projectName="DataStructure" targetName="graph" />
-      <config projectName="DataStructure" targetName="link-tree" />
-      <config projectName="DataStructure" targetName="queue" />
-      <config projectName="DataStructure" targetName="controlAndFlow" />
-      <config projectName="DataStructure" targetName="1" />
-      <config projectName="DataStructure" targetName="2" />
-      <config projectName="DataStructure" targetName="3" />
-      <config projectName="DataStructure" targetName="5" />
-      <config projectName="DataStructure" targetName="functionAndPrograms" />
-      <config projectName="DataStructure" targetName="Post-order" />
-      <config projectName="DataStructure" targetName="8" />
+      <config projectName="DataStructure" targetName="maopao" />
       <config projectName="DataStructure" targetName="link-stack" />
-      <config projectName="DataStructure" targetName="array-tree" />
-      <config projectName="DataStructure" targetName="array" />
-      <config projectName="DataStructure" targetName="KMP-next" />
-      <config projectName="DataStructure" targetName="Level-order" />
-      <config projectName="DataStructure" targetName="Pre-order" />
-      <config projectName="DataStructure" targetName="tree" />
-      <config projectName="DataStructure" targetName="CMakeCXXCompilerId" />
       <config projectName="DataStructure" targetName="typeAndOperation" />
-      <config projectName="DataStructure" targetName="array-stack" />
-      <config projectName="DataStructure" targetName="search" />
-      <config projectName="DataStructure" targetName="array-queue" />
-      <config projectName="DataStructure" targetName="array-linear" />
-      <config projectName="DataStructure" targetName="basis" />
+      <config projectName="DataStructure" targetName="tree" />
+      <config projectName="DataStructure" targetName="array" />
+      <config projectName="DataStructure" targetName="String" />
       <config projectName="DataStructure" targetName="sorting" />
+      <config projectName="DataStructure" targetName="file" />
+      <config projectName="DataStructure" targetName="controlAndFlow" />
+      <config projectName="DataStructure" targetName="Level-order" />
+      <config projectName="DataStructure" targetName="KMP-next" />
+      <config projectName="DataStructure" targetName="functionAndPrograms" />
+      <config projectName="DataStructure" targetName="queue" />
+      <config projectName="DataStructure" targetName="insert-sort" />
+      <config projectName="DataStructure" targetName="array-stack" />
+      <config projectName="DataStructure" targetName="graph" />
+      <config projectName="DataStructure" targetName="string-info" />
+      <config projectName="DataStructure" targetName="Post-order" />
+      <config projectName="DataStructure" targetName="basis" />
+      <config projectName="DataStructure" targetName="structureAndClass" />
+      <config projectName="DataStructure" targetName="array-queue" />
+      <config projectName="DataStructure" targetName="link-queue" />
+      <config projectName="DataStructure" targetName="stack" />
+      <config projectName="DataStructure" targetName="array-tree" />
+      <config projectName="DataStructure" targetName="CMakeCXXCompilerId" />
+      <config projectName="DataStructure" targetName="link-tree" />
+      <config projectName="DataStructure" targetName="search" />
+      <config projectName="DataStructure" targetName="In-order" />
       <config projectName="DataStructure" targetName="pointersAndArrays" />
+      <config projectName="DataStructure" targetName="Pre-order" />
+      <config projectName="DataStructure" targetName="8" />
+      <config projectName="DataStructure" targetName="1" />
+      <config projectName="DataStructure" targetName="array-linear" />
+      <config projectName="DataStructure" targetName="3" />
+      <config projectName="DataStructure" targetName="2" />
+      <config projectName="DataStructure" targetName="KMP-pro" />
+      <config projectName="DataStructure" targetName="5" />
+      <config projectName="DataStructure" targetName="KMP" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -56,27 +58,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a307271-3b33-4382-ad42-6610ef80aade" name="Default Changelist" comment="StringAndTree">
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linear-list/Question/2.2/1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linear-list/Question/2.2/2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linear-list/Question/2.2/3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linear-list/Question/2.3/5.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linear-list/Question/2.3/8.cpp" afterDir="false" />
+    <list default="true" id="4a307271-3b33-4382-ad42-6610ef80aade" name="Default Changelist" comment="Linear_Question">
+      <change afterPath="$PROJECT_DIR$/Sorting/insert-sort.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sorting/maopao.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linear-list/array-linear.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Linear-list/array-linear.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/String.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/String.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/array.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/array.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/file.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linear-list.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linear-list.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queue.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queue.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sorting.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sorting.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tree.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tree.dir/progress.make" afterDir="false" />
@@ -133,7 +129,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="CMake Application.3">
+  <component name="RunManager" selected="CMake Application.maopao">
     <configuration name="1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -254,6 +250,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="insert-sort" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="insert-sort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="insert-sort">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="linear-list" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="linear-list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="linear-list">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -270,6 +271,11 @@
       </method>
     </configuration>
     <configuration name="link-tree" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="link-tree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="link-tree">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="maopao" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="maopao" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="maopao">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -320,8 +326,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.1" />
+      <item itemvalue="CMake Application.2" />
+      <item itemvalue="CMake Application.3" />
+      <item itemvalue="CMake Application.5" />
+      <item itemvalue="CMake Application.8" />
       <item itemvalue="CMake Application.CMakeCXXCompilerId" />
       <item itemvalue="CMake Application.In-order" />
+      <item itemvalue="CMake Application.insert-sort" />
       <item itemvalue="CMake Application.KMP-next" />
       <item itemvalue="CMake Application.KMP-pro" />
       <item itemvalue="CMake Application.KMP" />
@@ -333,11 +345,6 @@
       <item itemvalue="CMake Application.array-queue" />
       <item itemvalue="CMake Application.array-stack" />
       <item itemvalue="CMake Application.array-tree" />
-      <item itemvalue="CMake Application.1" />
-      <item itemvalue="CMake Application.2" />
-      <item itemvalue="CMake Application.3" />
-      <item itemvalue="CMake Application.5" />
-      <item itemvalue="CMake Application.8" />
       <item itemvalue="CMake Application.array" />
       <item itemvalue="CMake Application.basis" />
       <item itemvalue="CMake Application.controlAndFlow" />
@@ -348,6 +355,7 @@
       <item itemvalue="CMake Application.link-queue" />
       <item itemvalue="CMake Application.link-stack" />
       <item itemvalue="CMake Application.link-tree" />
+      <item itemvalue="CMake Application.maopao" />
       <item itemvalue="CMake Application.pointersAndArrays" />
       <item itemvalue="CMake Application.queue" />
       <item itemvalue="CMake Application.search" />
@@ -393,7 +401,34 @@
       <workItem from="1602765876953" duration="826000" />
       <workItem from="1602836549094" duration="809000" />
       <workItem from="1602843622147" duration="3179000" />
-      <workItem from="1602846819081" duration="2076000" />
+      <workItem from="1602846819081" duration="2761000" />
+      <workItem from="1602930390340" duration="568000" />
+      <workItem from="1602935473447" duration="912000" />
+      <workItem from="1602937395080" duration="401000" />
+      <workItem from="1603021763333" duration="744000" />
+      <workItem from="1603022874992" duration="94000" />
+      <workItem from="1603079516354" duration="149000" />
+      <workItem from="1603193739305" duration="68000" />
+      <workItem from="1603193848448" duration="294000" />
+      <workItem from="1603195572314" duration="242000" />
+      <workItem from="1603199355615" duration="8000" />
+      <workItem from="1603199726392" duration="2013000" />
+      <workItem from="1603283240712" duration="528000" />
+      <workItem from="1603359541841" duration="349000" />
+      <workItem from="1603454751716" duration="598000" />
+      <workItem from="1603497525935" duration="675000" />
+      <workItem from="1603531075687" duration="1609000" />
+      <workItem from="1603589059448" duration="457000" />
+      <workItem from="1603797392185" duration="686000" />
+      <workItem from="1603872516280" duration="478000" />
+      <workItem from="1603929521632" duration="244000" />
+      <workItem from="1603958664811" duration="431000" />
+      <workItem from="1604015244981" duration="398000" />
+      <workItem from="1604102156987" duration="438000" />
+      <workItem from="1604151609784" duration="22000" />
+      <workItem from="1604190327279" duration="471000" />
+      <workItem from="1604290031924" duration="468000" />
+      <workItem from="1604472313817" duration="556000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <created>1600249700181</created>
@@ -479,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601635006918</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Linear_Question">
+      <created>1602848935011</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602848935011</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +579,8 @@
     <MESSAGE value="c-basis" />
     <MESSAGE value="StackAndQueue" />
     <MESSAGE value="StringAndTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringAndTree" />
+    <MESSAGE value="Linear_Question" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linear_Question" />
   </component>
   <component name="WindowStateProjectService">
     <state x="859" y="294" width="524" height="514" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600244720108">
@@ -548,34 +591,38 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="479" y="27" width="854" height="1049" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1600249885982" />
-    <state width="1866" height="261" key="GridCell.Tab.0.bottom" timestamp="1602848803821">
+    <state x="816" y="322" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603201692008">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1866" height="261" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1602848803821" />
-    <state width="1866" height="261" key="GridCell.Tab.0.center" timestamp="1602848803820">
+    <state x="816" y="322" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1603201692008" />
+    <state width="1242" height="221" key="GridCell.Tab.0.bottom" timestamp="1603535682860">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1866" height="261" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1602848803820" />
-    <state width="1866" height="261" key="GridCell.Tab.0.left" timestamp="1602848803820">
+    <state width="1242" height="221" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1603535682860" />
+    <state width="1242" height="221" key="GridCell.Tab.0.center" timestamp="1603535682858">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1866" height="261" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1602848803820" />
-    <state width="1866" height="261" key="GridCell.Tab.0.right" timestamp="1602848803821">
+    <state width="1242" height="221" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1603535682858" />
+    <state width="1242" height="221" key="GridCell.Tab.0.left" timestamp="1603535682858">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1866" height="261" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1602848803821" />
-    <state x="393" y="165" width="1372" height="737" key="SettingsEditor" timestamp="1602685524596">
+    <state width="1242" height="221" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1603535682858" />
+    <state width="1242" height="221" key="GridCell.Tab.0.right" timestamp="1603535682858">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="393" y="165" width="1372" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1602685524596" />
-    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1601635020961">
+    <state width="1242" height="221" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1603535682858" />
+    <state x="393" y="165" width="1372" height="737" key="SettingsEditor" timestamp="1603797436168">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1601635020961" />
-    <state x="445" y="242" width="1020" height="629" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602836859520">
+    <state x="393" y="165" width="1372" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1603797436168" />
+    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1602848952141">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="445" y="242" width="1020" height="629" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1602836859520" />
+    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1602848952141" />
+    <state x="445" y="242" width="1020" height="629" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602930898068">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="445" y="242" width="1020" height="629" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1602930898068" />
     <state x="738" y="486" width="461" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600247072604">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -584,10 +631,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="699" y="341" width="741" height="470" key="git4idea.merge.GitPullDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1601522443711" />
-    <state x="823" y="401" width="607" height="294" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1602685522836">
+    <state x="348" y="85" width="1370" height="959" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1603797434401">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="823" y="401" width="607" height="294" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1602685522836" />
+    <state x="348" y="85" width="1370" height="959" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1603797434401" />
     <state x="673" y="331" width="564" height="451" key="refactoring.ChangeSignatureDialog" timestamp="1601634110431">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

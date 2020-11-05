@@ -643,6 +643,50 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="array-stack">
+				<Option output="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/array-stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 array-stack"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="array-stack/fast">
+				<Option output="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/array-stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 array-stack/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="link-stack">
 				<Option output="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/link-stack" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug"/>
@@ -1083,50 +1127,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="array-stack">
-				<Option output="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/array-stack" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 array-stack"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="array-stack/fast">
-				<Option output="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/array-stack" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 array-stack/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="sorting">
 				<Option output="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/sorting" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug"/>
@@ -1298,6 +1298,50 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="insert-sort">
+				<Option output="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/insert-sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 insert-sort"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="insert-sort/fast">
+				<Option output="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/insert-sort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 insert-sort/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1621,6 +1665,50 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="maopao">
+				<Option output="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/maopao" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 maopao"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maopao/fast">
+				<Option output="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/maopao" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 maopao/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="queue">
 				<Option output="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug/queue" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/puppet/WorkSpace/CLionProjects/DataStructure/cmake-build-debug"/>
@@ -1725,6 +1813,12 @@
 		</Unit>
 		<Unit filename="/home/puppet/WorkSpace/CLionProjects/DataStructure/Search/search.cpp">
 			<Option target="search"/>
+		</Unit>
+		<Unit filename="/home/puppet/WorkSpace/CLionProjects/DataStructure/Sorting/insert-sort.cpp">
+			<Option target="insert-sort"/>
+		</Unit>
+		<Unit filename="/home/puppet/WorkSpace/CLionProjects/DataStructure/Sorting/maopao.cpp">
+			<Option target="maopao"/>
 		</Unit>
 		<Unit filename="/home/puppet/WorkSpace/CLionProjects/DataStructure/Sorting/sorting.cpp">
 			<Option target="sorting"/>

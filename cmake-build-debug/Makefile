@@ -293,6 +293,19 @@ stack/fast:
 .PHONY : stack/fast
 
 #=============================================================================
+# Target rules for targets named array-stack
+
+# Build rule for target.
+array-stack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 array-stack
+.PHONY : array-stack
+
+# fast build rule for target.
+array-stack/fast:
+	$(MAKE) -f CMakeFiles/array-stack.dir/build.make CMakeFiles/array-stack.dir/build
+.PHONY : array-stack/fast
+
+#=============================================================================
 # Target rules for targets named link-stack
 
 # Build rule for target.
@@ -423,19 +436,6 @@ controlAndFlow/fast:
 .PHONY : controlAndFlow/fast
 
 #=============================================================================
-# Target rules for targets named array-stack
-
-# Build rule for target.
-array-stack: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 array-stack
-.PHONY : array-stack
-
-# fast build rule for target.
-array-stack/fast:
-	$(MAKE) -f CMakeFiles/array-stack.dir/build.make CMakeFiles/array-stack.dir/build
-.PHONY : array-stack/fast
-
-#=============================================================================
 # Target rules for targets named sorting
 
 # Build rule for target.
@@ -486,6 +486,19 @@ search/fast:
 5/fast:
 	$(MAKE) -f CMakeFiles/5.dir/build.make CMakeFiles/5.dir/build
 .PHONY : 5/fast
+
+#=============================================================================
+# Target rules for targets named insert-sort
+
+# Build rule for target.
+insert-sort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 insert-sort
+.PHONY : insert-sort
+
+# fast build rule for target.
+insert-sort/fast:
+	$(MAKE) -f CMakeFiles/insert-sort.dir/build.make CMakeFiles/insert-sort.dir/build
+.PHONY : insert-sort/fast
 
 #=============================================================================
 # Target rules for targets named 8
@@ -577,6 +590,19 @@ linear-list: cmake_check_build_system
 linear-list/fast:
 	$(MAKE) -f CMakeFiles/linear-list.dir/build.make CMakeFiles/linear-list.dir/build
 .PHONY : linear-list/fast
+
+#=============================================================================
+# Target rules for targets named maopao
+
+# Build rule for target.
+maopao: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 maopao
+.PHONY : maopao
+
+# fast build rule for target.
+maopao/fast:
+	$(MAKE) -f CMakeFiles/maopao.dir/build.make CMakeFiles/maopao.dir/build
+.PHONY : maopao/fast
 
 #=============================================================================
 # Target rules for targets named queue
@@ -1158,6 +1184,60 @@ Search/search.cpp.s:
 	$(MAKE) -f CMakeFiles/search.dir/build.make CMakeFiles/search.dir/Search/search.cpp.s
 .PHONY : Search/search.cpp.s
 
+Sorting/insert-sort.o: Sorting/insert-sort.cpp.o
+
+.PHONY : Sorting/insert-sort.o
+
+# target to build an object file
+Sorting/insert-sort.cpp.o:
+	$(MAKE) -f CMakeFiles/insert-sort.dir/build.make CMakeFiles/insert-sort.dir/Sorting/insert-sort.cpp.o
+.PHONY : Sorting/insert-sort.cpp.o
+
+Sorting/insert-sort.i: Sorting/insert-sort.cpp.i
+
+.PHONY : Sorting/insert-sort.i
+
+# target to preprocess a source file
+Sorting/insert-sort.cpp.i:
+	$(MAKE) -f CMakeFiles/insert-sort.dir/build.make CMakeFiles/insert-sort.dir/Sorting/insert-sort.cpp.i
+.PHONY : Sorting/insert-sort.cpp.i
+
+Sorting/insert-sort.s: Sorting/insert-sort.cpp.s
+
+.PHONY : Sorting/insert-sort.s
+
+# target to generate assembly for a file
+Sorting/insert-sort.cpp.s:
+	$(MAKE) -f CMakeFiles/insert-sort.dir/build.make CMakeFiles/insert-sort.dir/Sorting/insert-sort.cpp.s
+.PHONY : Sorting/insert-sort.cpp.s
+
+Sorting/maopao.o: Sorting/maopao.cpp.o
+
+.PHONY : Sorting/maopao.o
+
+# target to build an object file
+Sorting/maopao.cpp.o:
+	$(MAKE) -f CMakeFiles/maopao.dir/build.make CMakeFiles/maopao.dir/Sorting/maopao.cpp.o
+.PHONY : Sorting/maopao.cpp.o
+
+Sorting/maopao.i: Sorting/maopao.cpp.i
+
+.PHONY : Sorting/maopao.i
+
+# target to preprocess a source file
+Sorting/maopao.cpp.i:
+	$(MAKE) -f CMakeFiles/maopao.dir/build.make CMakeFiles/maopao.dir/Sorting/maopao.cpp.i
+.PHONY : Sorting/maopao.cpp.i
+
+Sorting/maopao.s: Sorting/maopao.cpp.s
+
+.PHONY : Sorting/maopao.s
+
+# target to generate assembly for a file
+Sorting/maopao.cpp.s:
+	$(MAKE) -f CMakeFiles/maopao.dir/build.make CMakeFiles/maopao.dir/Sorting/maopao.cpp.s
+.PHONY : Sorting/maopao.cpp.s
+
 Sorting/sorting.o: Sorting/sorting.cpp.o
 
 .PHONY : Sorting/sorting.o
@@ -1611,6 +1691,7 @@ help:
 	@echo "... KMP-pro"
 	@echo "... KMP-next"
 	@echo "... stack"
+	@echo "... array-stack"
 	@echo "... link-stack"
 	@echo "... file"
 	@echo "... graph"
@@ -1621,11 +1702,11 @@ help:
 	@echo "... functionAndPrograms"
 	@echo "... 1"
 	@echo "... controlAndFlow"
-	@echo "... array-stack"
 	@echo "... sorting"
 	@echo "... search"
 	@echo "... 3"
 	@echo "... 5"
+	@echo "... insert-sort"
 	@echo "... 8"
 	@echo "... array-linear"
 	@echo "... rebuild_cache"
@@ -1634,6 +1715,7 @@ help:
 	@echo "... array"
 	@echo "... 2"
 	@echo "... linear-list"
+	@echo "... maopao"
 	@echo "... queue"
 	@echo "... Array/array.o"
 	@echo "... Array/array.i"
@@ -1698,6 +1780,12 @@ help:
 	@echo "... Search/search.o"
 	@echo "... Search/search.i"
 	@echo "... Search/search.s"
+	@echo "... Sorting/insert-sort.o"
+	@echo "... Sorting/insert-sort.i"
+	@echo "... Sorting/insert-sort.s"
+	@echo "... Sorting/maopao.o"
+	@echo "... Sorting/maopao.i"
+	@echo "... Sorting/maopao.s"
 	@echo "... Sorting/sorting.o"
 	@echo "... Sorting/sorting.i"
 	@echo "... Sorting/sorting.s"

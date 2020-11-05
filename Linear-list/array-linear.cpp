@@ -4,8 +4,10 @@
 #include <stdio.h>
 #include <malloc.h>
 #define MaxSize 50
+typedef int ElemType ;
 typedef  struct {
     int data[MaxSize];
+    ElemType ok;
     int length;
 } SqList;
 

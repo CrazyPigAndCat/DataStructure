@@ -19,6 +19,8 @@
     -- src/link-queue.cpp will be compiled to bin/link-queue
     -- src/queue.cpp will be compiled to bin/queue
     -- src/search.cpp will be compiled to bin/search
+    -- src/insert-sort.cpp will be compiled to bin/insert-sort
+    -- src/maopao.cpp will be compiled to bin/maopao
     -- src/sorting.cpp will be compiled to bin/sorting
     -- src/array-stack.cpp will be compiled to bin/array-stack
     -- src/link-stack.cpp will be compiled to bin/link-stack
