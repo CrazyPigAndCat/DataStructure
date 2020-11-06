@@ -19,6 +19,7 @@
       <config projectName="DataStructure" targetName="array" />
       <config projectName="DataStructure" targetName="String" />
       <config projectName="DataStructure" targetName="sorting" />
+      <config projectName="DataStructure" targetName="KMP" />
       <config projectName="DataStructure" targetName="file" />
       <config projectName="DataStructure" targetName="controlAndFlow" />
       <config projectName="DataStructure" targetName="Level-order" />
@@ -32,13 +33,12 @@
       <config projectName="DataStructure" targetName="Post-order" />
       <config projectName="DataStructure" targetName="basis" />
       <config projectName="DataStructure" targetName="structureAndClass" />
-      <config projectName="DataStructure" targetName="array-queue" />
+      <config projectName="DataStructure" targetName="KMP-pro" />
       <config projectName="DataStructure" targetName="link-queue" />
       <config projectName="DataStructure" targetName="stack" />
       <config projectName="DataStructure" targetName="array-tree" />
       <config projectName="DataStructure" targetName="CMakeCXXCompilerId" />
       <config projectName="DataStructure" targetName="link-tree" />
-      <config projectName="DataStructure" targetName="search" />
       <config projectName="DataStructure" targetName="In-order" />
       <config projectName="DataStructure" targetName="pointersAndArrays" />
       <config projectName="DataStructure" targetName="Pre-order" />
@@ -47,9 +47,9 @@
       <config projectName="DataStructure" targetName="array-linear" />
       <config projectName="DataStructure" targetName="3" />
       <config projectName="DataStructure" targetName="2" />
-      <config projectName="DataStructure" targetName="KMP-pro" />
+      <config projectName="DataStructure" targetName="array-queue" />
       <config projectName="DataStructure" targetName="5" />
-      <config projectName="DataStructure" targetName="KMP" />
+      <config projectName="DataStructure" targetName="search" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -59,25 +59,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a307271-3b33-4382-ad42-6610ef80aade" name="Default Changelist" comment="Linear_Question">
-      <change afterPath="$PROJECT_DIR$/Sorting/insert-sort.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sorting/maopao.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linear-list/array-linear.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Linear-list/array-linear.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linear-list.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/linear-list.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queue.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/queue.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/search.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sorting.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/sorting.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tree.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tree.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/DataStructure.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DataStructure.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/graph.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -429,6 +413,11 @@
       <workItem from="1604190327279" duration="471000" />
       <workItem from="1604290031924" duration="468000" />
       <workItem from="1604472313817" duration="556000" />
+      <workItem from="1604552746141" duration="607000" />
+      <workItem from="1604579855615" duration="680000" />
+      <workItem from="1604626952701" duration="626000" />
+      <workItem from="1604659510102" duration="1377000" />
+      <workItem from="1604661011358" duration="793000" />
     </task>
     <task id="LOCAL-00001" summary="新建">
       <created>1600249700181</created>
@@ -521,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602848935011</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Linear_Question">
+      <created>1604552808327</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604552808327</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,10 +611,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="393" y="165" width="1372" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1603797436168" />
-    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1602848952141">
+    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2" timestamp="1604552889466">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1602848952141" />
+    <state x="517" y="282" width="800" height="538" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1604552889466" />
     <state x="445" y="242" width="1020" height="629" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602930898068">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
